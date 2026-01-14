@@ -1,0 +1,72 @@
+
+Log Entry : 11:10:37 a. m. miércoles, 27 de marzo de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'HAVING   
+                           producto NOT LIKE '%(III)%' AND producto N' at line 1
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlDataReader.Close()
+   en MySql.Data.MySqlClient.MySqlDataReader.Dispose()
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 162
+
+
+
+
+Log Entry : 11:10:45 a. m. miércoles, 27 de marzo de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La columna 'movimiento' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Antibioticos.get_detallado_generico(String tipo, Int64 elemento_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Antibioticos.cs:línea 467
+   en Farmacontrol_PDV.FORMS.inventarios.control_antibioticos.Info_generica.carga_info(String movimiento, Int64 elemento_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\inventarios\control_antibioticos\Info_generica.cs:línea 56
+   en Farmacontrol_PDV.FORMS.inventarios.control_antibioticos.Info_generica.Info_generica_Shown(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\inventarios\control_antibioticos\Info_generica.cs:línea 423
+   en System.Windows.Forms.Form.OnShown(EventArgs e)
+   en System.Windows.Forms.Form.CallShownEvent()
+   en System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   en System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en System.Windows.Forms.Form.ShowDialog()
+   en Farmacontrol_PDV.FORMS.inventarios.control_antibioticos.Control_AB_principal.dgv_control_AB_MouseDoubleClick(Object sender, MouseEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\inventarios\control_antibioticos\Control_AB_principal.cs:línea 370
+   en System.Windows.Forms.Control.OnMouseDoubleClick(MouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseDoubleClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

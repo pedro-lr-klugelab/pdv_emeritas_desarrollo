@@ -1,0 +1,170 @@
+
+Log Entry : 11:04:35 a. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.ClearInternal(Boolean recreateNewRow)
+   en System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+
+
+Log Entry : 01:35:36 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+Unknown column 'codigo_sat' in 'field list'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 01:35:44 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+Unknown column 'codigo_sat' in 'field list'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 01:37:55 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 1.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2667
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:39:04 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 1.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2667
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:43:03 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 1.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2667
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:43:53 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 20.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2718
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:44:45 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 20.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2718
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:52:13 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 20.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2718
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:53:18 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 20.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2718
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+
+
+Log Entry : 01:55:11 p. m. domingo, 31 de diciembre de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 4
+No se puede encontrar la columna 20.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2718
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 788
+
+
+

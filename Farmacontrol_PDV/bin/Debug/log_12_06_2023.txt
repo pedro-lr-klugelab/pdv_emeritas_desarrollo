@@ -1,0 +1,190 @@
+
+Log Entry : 08:48:04 a. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.HELPERS.Misc_helper.fecha(String fecha, String tipo) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\HELPERS\Misc_helper.cs:línea 252
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.validar_codigo_entrada() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 85
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.txt_folio_venta_KeyDown(Object sender, KeyEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 160
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:32:08 a. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.visualizar_correos() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 401
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 248
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:33:26 p. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.visualizar_correos() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 401
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 248
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:45:04 p. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.visualizar_correos() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 401
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 248
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:58:25 p. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.visualizar_correos() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 401
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 248
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 02:03:22 p. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.visualizar_correos() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 401
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 248
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 02:12:50 p. m. lunes, 12 de junio de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.mostrar_correos_rfc() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 465
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 249
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

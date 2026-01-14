@@ -1,0 +1,210 @@
+
+Log Entry : 12:35:17 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+
+
+Log Entry : 12:59:13 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+
+
+Log Entry : 12:59:16 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.ClearInternal(Boolean recreateNewRow)
+   en System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+
+
+Log Entry : 12:59:30 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+
+
+Log Entry : 12:59:43 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+
+
+Log Entry : 12:59:48 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.ClearInternal(Boolean recreateNewRow)
+   en System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+
+
+Log Entry : 12:59:58 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.ClearInternal(Boolean recreateNewRow)
+   en System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+
+
+Log Entry : 01:12:26 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+
+
+Log Entry : 01:13:05 p. m. viernes, 16 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Esta operación no se puede realizar cuando se está cambiando de tamaño una columna de relleno automático.
+   en System.Windows.Forms.DataGridView.PerformLayoutPrivate(Boolean useRowShortcut, Boolean computeVisibleRows, Boolean invalidInAdjustFillingColumns, Boolean repositionEditingControl)
+   en System.Windows.Forms.DataGridView.ResetUIState(Boolean useRowShortcut, Boolean computeVisibleRows)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PreNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow& dataGridViewRow, Boolean changeIsInsertion)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.InsertInternal(Int32 rowIndex, DataGridViewRow dataGridViewRow, Boolean force)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.InsertItem(Int32 index, T item)
+   en System.Collections.ObjectModel.Collection`1.Add(T item)
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 213
+
+
+

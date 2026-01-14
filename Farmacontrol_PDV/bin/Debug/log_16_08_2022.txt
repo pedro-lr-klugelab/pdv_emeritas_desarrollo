@@ -1,0 +1,74 @@
+
+Log Entry : 10:48:37 a. m. martes, 16 de agosto de 2022
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.No se puede almacenar <Sin promociones vigentes> en la columna codigo. El tipo esperado es UInt64.
+   en System.Data.DataColumn.set_Item(Int32 record, Object value)
+   en System.Data.DataRow.set_Item(DataColumn column, Object value)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.venta_beneficios_soyfan.set_envio_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\venta_beneficios_soyfan.cs:línea 98
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.venta_beneficios_soyfan..ctor(String folio, String num_autorizacion, String tarjeta_beneficios) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\venta_beneficios_soyfan.cs:línea 39
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.inicio_lealtad.btnAceptar_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\inicio_lealtad.cs:línea 55
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseUInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToUInt64(IFormatProvider provider)
+   en System.Data.Common.UInt64Storage.Set(Int32 record, Object value)
+   en System.Data.DataColumn.set_Item(Int32 record, Object value)
+
+
+
+
+Log Entry : 11:10:22 a. m. martes, 16 de agosto de 2022
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.No se puede almacenar <Sin promociones vigentes> en la columna codigo. El tipo esperado es UInt64.
+   en System.Data.DataColumn.set_Item(Int32 record, Object value)
+   en System.Data.DataRow.set_Item(DataColumn column, Object value)
+   en System.Data.DataRow.set_Item(String columnName, Object value)
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.venta_beneficios_soyfan.set_envio_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\venta_beneficios_soyfan.cs:línea 98
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.venta_beneficios_soyfan..ctor(String folio, String num_autorizacion, String tarjeta_beneficios) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\venta_beneficios_soyfan.cs:línea 39
+   en Farmacontrol_PDV.FORMS.movimientos.fanasa_fan.inicio_lealtad.btnAceptar_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\fanasa_fan\inicio_lealtad.cs:línea 55
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseUInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.String.System.IConvertible.ToUInt64(IFormatProvider provider)
+   en System.Data.Common.UInt64Storage.Set(Int32 record, Object value)
+   en System.Data.DataColumn.set_Item(Int32 record, Object value)
+
+
+

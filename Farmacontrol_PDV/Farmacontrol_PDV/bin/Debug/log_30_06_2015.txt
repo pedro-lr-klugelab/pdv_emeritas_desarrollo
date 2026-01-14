@@ -1,0 +1,942 @@
+
+Log Entry : 09:13:58 a. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.ajusteExistencia_get_info_ajuste_existencia; expected 1, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 288
+
+
+
+
+Log Entry : 09:14:01 a. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.get_informacion_ajuste_existencia(Int64 ajuste_existencia_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 176
+
+
+
+
+Log Entry : 09:16:55 a. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.ajusteExistencia_get_info_ajuste_existencia; expected 1, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 288
+
+
+
+
+Log Entry : 09:16:57 a. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.get_informacion_ajuste_existencia(Int64 ajuste_existencia_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 176
+
+
+
+
+Log Entry : 02:58:27 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 02:58:29 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 02:58:34 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 02:58:37 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:11 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:12 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:18 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:18 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:19 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:19 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:21 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:21 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:23 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:24 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:02:59 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:02:59 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:04:43 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:04:44 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:04:53 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Incorrect number of arguments for PROCEDURE farmacontrol_global.Articulos_busqueda_articulos_existencias_comp; expected 2, got 0
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 03:04:53 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:33:46 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Table 'farmacontrol_global.temp_table' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:33:46 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:33:56 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Table 'farmacontrol_global.temp_table' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:33:56 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:34:31 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Unknown column 'detallado_ventas.articulo_id' in 'where clause'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:34:31 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:34:41 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Unknown column 'detallado_ventas.articulo_id' in 'where clause'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:34:42 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 1966
+
+
+
+
+Log Entry : 03:59:32 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\DAO\Conector.cs:línea 235
+
+
+
+
+Log Entry : 04:37:23 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:23 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:28 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:28 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:29 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:30 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:30 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:30 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:31 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:31 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:32 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:32 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:32 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:33 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:33 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:34 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:37:36 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:37:37 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:38:56 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:38:57 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+
+
+Log Entry : 04:39:49 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+								GROUP BY
+									articulo_id,caducidad,lote
+							) AS tmp_existe' at line 43
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 157
+
+
+
+
+Log Entry : 04:39:50 p. m. martes, 30 de junio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Articulos.cs:línea 1964
+
+
+

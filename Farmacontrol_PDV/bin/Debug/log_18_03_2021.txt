@@ -1,0 +1,48 @@
+
+Log Entry : 08:57:23 a. m. jueves, 18 de marzo de 2021
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'true
+                                   ) AS tmp_mermas
+                      ' at line 58
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 163
+
+
+
+
+Log Entry : 08:57:32 a. m. jueves, 18 de marzo de 2021
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La columna 'amecop' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Articulos.get_articulos_data(String nombre, Boolean inactivos) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Articulos.cs:línea 2358
+
+
+
+
+Log Entry : 09:11:58 a. m. jueves, 18 de marzo de 2021
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Operación no válida a través de subprocesos: Se tuvo acceso al control 'dgv_articulos' desde un subproceso distinto a aquel en que lo creó.
+   en System.Windows.Forms.Control.get_Handle()
+   en System.Windows.Forms.Control.Invalidate(Boolean invalidateChildren)
+   en System.Windows.Forms.Control.Refresh()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 192
+
+
+

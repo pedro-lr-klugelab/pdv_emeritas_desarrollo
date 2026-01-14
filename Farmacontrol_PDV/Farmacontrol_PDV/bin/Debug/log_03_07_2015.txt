@@ -1,0 +1,1374 @@
+
+Log Entry : 09:19:24 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 73
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 299
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 245
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:26:21 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion)
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota()
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e)
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main()
+
+
+
+
+Log Entry : 09:27:32 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   en System.Convert.ToInt64(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_totales(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 2002
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_ticket_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 1868
+   en Farmacontrol_PDV.CLASSES.PRINT.Ticket_venta.construccion_ticket(Int64 venta_id, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Ventas.cs:línea 26
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 299
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 245
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:35:35 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   en System.Convert.ToInt64(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_totales(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 2002
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_ticket_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 1868
+   en Farmacontrol_PDV.CLASSES.PRINT.Ticket_venta.construccion_ticket(Int64 venta_id, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Ventas.cs:línea 26
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 299
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 245
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:44:06 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   en System.Convert.ToInt64(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_totales(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 2002
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_ticket_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 1868
+   en Farmacontrol_PDV.CLASSES.PRINT.Ticket_venta.construccion_ticket(Int64 venta_id, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Ventas.cs:línea 26
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 299
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 245
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:07:16 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Duplicate entry '167-0000-00-00--DEVOLUCION_CLIENTE-324-0' for key 'articulo_caducidad_lote_tipo_elemento_importado'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 83
+
+
+
+
+Log Entry : 10:26:10 a. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   en System.Convert.ToInt64(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_totales(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 2002
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_ticket_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 1868
+   en Farmacontrol_PDV.CLASSES.PRINT.Ticket_venta.construccion_ticket(Int64 venta_id, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Ventas.cs:línea 26
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 298
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 244
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 12:05:01 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:05:01 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_venta_data(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 3268
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.rellenar_informacion_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 280
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.crear_venta(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 36
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.Ventas_principal_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 639
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 12:05:21 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:07:21 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:07:22 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_venta_data(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 3268
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.rellenar_informacion_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 280
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.crear_venta(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 36
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.Ventas_principal_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 639
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 12:08:14 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:11:31 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:14:24 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_venta_data(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 3268
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.rellenar_informacion_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 280
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.crear_venta(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 36
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.Ventas_principal_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 639
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 12:18:14 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:22:30 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'terminal_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_venta_data(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 3268
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.rellenar_informacion_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 280
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.crear_venta(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 36
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.Ventas_principal_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 639
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 12:25:54 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Parameter 'par_venta_id' not found in the collection.
+   en MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   en MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 12:25:54 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'caducidad' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_productos_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 3054
+
+
+
+
+Log Entry : 12:25:55 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'total' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.get_totales() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 151
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.get_productos_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 81
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.rellenar_informacion_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 289
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.crear_venta(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 36
+   en Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.Ventas_principal_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\ventas\Ventas_principal.cs:línea 639
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 01:43:08 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 73
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 298
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 184
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 02:14:10 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`cotizaciones_get_last_empleado_cotizacion(@terminal_id)`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:14:11 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'empleado_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1124
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.Cotizaciones_principal_KeyDown(Object sender, KeyEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 984
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Form.ProcessKeyPreview(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 02:15:10 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`cotizaciones_get_last_empleado_cotizacion(@terminal_id)`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:18:34 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'empleado_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.Cotizaciones_principal_KeyDown(Object sender, KeyEventArgs e)
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Form.ProcessKeyPreview(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main()
+
+
+
+
+Log Entry : 02:19:21 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`cotizaciones_get_last_empleado_cotizacion(@terminal_id)`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:19:22 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'empleado_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1132
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.Cotizaciones_principal_KeyDown(Object sender, KeyEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 984
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Form.ProcessKeyPreview(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 02:23:22 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+PROCEDURE farmacontrol_global.registrar_cotizacion does not exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 235
+
+
+
+
+Log Entry : 02:23:22 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No hay ninguna fila en la posición 0.
+   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.rellenar_informacion_cotizacion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 237
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 259
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:27:06 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+PROCEDURE farmacontrol_global.registrar_cotizacion does not exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 235
+
+
+
+
+Log Entry : 02:27:06 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No hay ninguna fila en la posición 0.
+   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.rellenar_informacion_cotizacion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 237
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 259
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:28:20 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+PROCEDURE farmacontrol_global.registrar_cotizacion does not exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 235
+
+
+
+
+Log Entry : 02:28:21 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No hay ninguna fila en la posición 0.
+   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.rellenar_informacion_cotizacion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 237
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 259
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:30:07 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:30:11 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:30:20 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:34:48 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:35:01 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 02:36:23 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 02:36:23 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:11:07 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:11:08 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:11:16 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:13:25 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`contizaciones_registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:13:26 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:13:41 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:17:08 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`contizaciones_registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:17:08 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:24:01 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`contizaciones_registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:24:01 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:25:17 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`contizaciones_registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:25:18 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 03:58:20 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Procedure or function '`contizaciones_registrar_cotizacion`' cannot be found in database '`farmacontrol_global`'.
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   en MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   en MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   en MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   en MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Call(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\Conector.cs:línea 289
+
+
+
+
+Log Entry : 03:58:21 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1153
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 04:01:43 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+La columna 'empleado_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Cotizaciones.registrar_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Cotizaciones.cs:línea 1163
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.creacion_cotizacion(Boolean tomar_empleado_sesion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 258
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.ventas_cotizacion_Load(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 253
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 04:28:34 p. m. viernes, 3 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.HELPERS.Misc_helper.fecha(String fecha, String tipo) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\HELPERS\Misc_helper.cs:línea 245
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.validar_codigo_entrada() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.txt_folio_venta_KeyDown(Object sender, KeyEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 159
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+

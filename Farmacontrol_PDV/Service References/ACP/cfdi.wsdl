@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:acpcfdi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:acpcfdi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:acpcfdi">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="resultConsultar_folios">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:string" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="folios" type="xsd:int" />
+          <xsd:element name="fecha_vencimiento" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultTimbrado">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:string" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="cfdi" type="xsd:string" />
+          <xsd:element name="pdf" type="xsd:string" />
+          <xsd:element name="status" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="detalleValidar">
+        <xsd:all>
+          <xsd:element name="Status" type="xsd:string" />
+          <xsd:element name="Mensaje" type="xsd:string" />
+          <xsd:element name="UUID" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultValidar">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="subcodigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="detalle" type="tns:detalleValidar" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="detalleValidacion">
+        <xsd:all>
+          <xsd:element name="estructura" type="xsd:int" />
+          <xsd:element name="estructuraTexto" type="xsd:string" />
+          <xsd:element name="selloCFDI" type="xsd:int" />
+          <xsd:element name="selloCFDITexto" type="xsd:string" />
+          <xsd:element name="selloSAT" type="xsd:int" />
+          <xsd:element name="selloSATTexto" type="xsd:string" />
+          <xsd:element name="respuestaTexto" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="detalleConsultar">
+        <xsd:all>
+          <xsd:element name="status" type="xsd:string" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="numDelay" type="xsd:int" />
+          <xsd:element name="uid" type="xsd:string" />
+          <xsd:element name="url" type="xsd:string" />
+          <xsd:element name="fechaEnvio" type="xsd:string" />
+          <xsd:element name="fechaInicioValidacion" type="xsd:string" />
+          <xsd:element name="fechaTerminoValidacion" type="xsd:string" />
+          <xsd:element name="validacion" type="tns:detalleValidacion" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultConsultar">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="subcodigo" type="xsd:string" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="detalle" type="tns:detalleConsultar" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultRegistrarTicket">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="archivosList">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:archivosDetail[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="archivosDetail">
+        <xsd:all>
+          <xsd:element name="fecha_emision" type="xsd:string" />
+          <xsd:element name="importe" type="xsd:decimal" />
+          <xsd:element name="uuid" type="xsd:string" />
+          <xsd:element name="cfdi" type="xsd:string" />
+          <xsd:element name="pdf" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="arrayTicket">
+        <xsd:all>
+          <xsd:element name="id" type="xsd:int" />
+          <xsd:element name="cuenta" type="xsd:int" />
+          <xsd:element name="fecha" type="xsd:string" />
+          <xsd:element name="folio" type="xsd:int" />
+          <xsd:element name="status" type="xsd:int" />
+          <xsd:element name="importe" type="xsd:decimal" />
+          <xsd:element name="saldo" type="xsd:decimal" />
+          <xsd:element name="metodo_pago" type="xsd:string" />
+          <xsd:element name="numero_cuenta" type="xsd:string" />
+          <xsd:element name="codigo" type="xsd:string" />
+          <xsd:element name="total_partes" type="xsd:int" />
+          <xsd:element name="archivos" type="tns:archivosList" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="arrayCliente">
+        <xsd:all>
+          <xsd:element name="identificador" type="xsd:string" />
+          <xsd:element name="rfc" type="xsd:string" />
+          <xsd:element name="nombre" type="xsd:string" />
+          <xsd:element name="calle" type="xsd:string" />
+          <xsd:element name="no_exterior" type="xsd:string" />
+          <xsd:element name="no_interior" type="xsd:string" />
+          <xsd:element name="colonia" type="xsd:string" />
+          <xsd:element name="localidad" type="xsd:string" />
+          <xsd:element name="referencia" type="xsd:string" />
+          <xsd:element name="municipio" type="xsd:string" />
+          <xsd:element name="estado" type="xsd:string" />
+          <xsd:element name="pais" type="xsd:string" />
+          <xsd:element name="codigo_postal" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="detalleConsultarTicket">
+        <xsd:all>
+          <xsd:element name="ticket" type="tns:arrayTicket" />
+          <xsd:element name="cliente" type="tns:arrayCliente" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultConsultarTicket">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="resultados" type="tns:detalleConsultarTicket" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultTimbrarTickets">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="cfdi" type="xsd:string" />
+          <xsd:element name="pdf" type="xsd:string" />
+          <xsd:element name="uuid" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultRegistrarClienteTickets">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="identificador" type="xsd:int" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultGenerarPdf">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+          <xsd:element name="pdf" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="resultEnviarCorreo">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="consultar_foliosRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="servicio" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="consultar_foliosResponse">
+    <wsdl:part name="return" type="tns:resultConsultar_folios" />
+  </wsdl:message>
+  <wsdl:message name="timbradoRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="cfdi" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbradoResponse">
+    <wsdl:part name="return" type="tns:resultTimbrado" />
+  </wsdl:message>
+  <wsdl:message name="timbrado3Request">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="archivo" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrado3Response">
+    <wsdl:part name="return" type="tns:resultTimbrado" />
+  </wsdl:message>
+  <wsdl:message name="validarRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="cfdi" type="xsd:string" />
+    <wsdl:part name="path" type="xsd:string" />
+    <wsdl:part name="name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="validarResponse">
+    <wsdl:part name="return" type="tns:resultValidar" />
+  </wsdl:message>
+  <wsdl:message name="resultado_validacionRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="uuid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="resultado_validacionResponse">
+    <wsdl:part name="return" type="tns:resultConsultar" />
+  </wsdl:message>
+  <wsdl:message name="registrarTicketRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="registrarTicketResponse">
+    <wsdl:part name="return" type="tns:resultRegistrarTicket" />
+  </wsdl:message>
+  <wsdl:message name="consultarTicketRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="codigo" type="xsd:string" />
+    <wsdl:part name="importe" type="xsd:decimal" />
+    <wsdl:part name="rfc" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="consultarTicketResponse">
+    <wsdl:part name="return" type="tns:resultConsultarTicket" />
+  </wsdl:message>
+  <wsdl:message name="timbrarTicketsRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrarTicketsResponse">
+    <wsdl:part name="return" type="tns:resultTimbrarTickets" />
+  </wsdl:message>
+  <wsdl:message name="registrarClienteTicketsRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="identificador" type="xsd:string" />
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="nombre" type="xsd:string" />
+    <wsdl:part name="calle" type="xsd:string" />
+    <wsdl:part name="no_exterior" type="xsd:string" />
+    <wsdl:part name="no_interior" type="xsd:string" />
+    <wsdl:part name="colonia" type="xsd:string" />
+    <wsdl:part name="localidad" type="xsd:string" />
+    <wsdl:part name="referencia" type="xsd:string" />
+    <wsdl:part name="municipio" type="xsd:string" />
+    <wsdl:part name="estado" type="xsd:string" />
+    <wsdl:part name="pais" type="xsd:string" />
+    <wsdl:part name="codigo_postal" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="registrarClienteTicketsResponse">
+    <wsdl:part name="return" type="tns:resultRegistrarClienteTickets" />
+  </wsdl:message>
+  <wsdl:message name="generarPdfRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="cfdi64" type="xsd:string" />
+    <wsdl:part name="identificador_factura" type="xsd:int" />
+    <wsdl:part name="serie" type="xsd:string" />
+    <wsdl:part name="servicio" type="xsd:int" />
+    <wsdl:part name="cancelado" type="xsd:boolean" />
+  </wsdl:message>
+  <wsdl:message name="generarPdfResponse">
+    <wsdl:part name="return" type="tns:resultGenerarPdf" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="servicio" type="xsd:int" />
+    <wsdl:part name="uuid" type="xsd:string" />
+    <wsdl:part name="destinatario" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoResponse">
+    <wsdl:part name="return" type="tns:resultEnviarCorreo" />
+  </wsdl:message>
+  <wsdl:portType name="ACP-CFDIPortType">
+    <wsdl:operation name="consultar_folios">
+      <documentation>Consulta de folios por servicio</documentation>
+      <wsdl:input message="tns:consultar_foliosRequest" />
+      <wsdl:output message="tns:consultar_foliosResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrado">
+      <documentation>Sellado, timbrado, PDF para CFDI v3.2</documentation>
+      <wsdl:input message="tns:timbradoRequest" />
+      <wsdl:output message="tns:timbradoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrado3">
+      <documentation>Conversion, sellado, timbrado, PDF y respaldo</documentation>
+      <wsdl:input message="tns:timbrado3Request" />
+      <wsdl:output message="tns:timbrado3Response" />
+    </wsdl:operation>
+    <wsdl:operation name="validar">
+      <documentation>ValidaciÃ³n de CFDI 3.2, 2.2</documentation>
+      <wsdl:input message="tns:validarRequest" />
+      <wsdl:output message="tns:validarResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="resultado_validacion">
+      <documentation>Complemento para la validaciÃ³n de CFD, CFDI</documentation>
+      <wsdl:input message="tns:resultado_validacionRequest" />
+      <wsdl:output message="tns:resultado_validacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registrarTicket">
+      <documentation>Registro de ticket para posterior facturaciÃ³n</documentation>
+      <wsdl:input message="tns:registrarTicketRequest" />
+      <wsdl:output message="tns:registrarTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="consultarTicket">
+      <documentation>Consulta de ticket</documentation>
+      <wsdl:input message="tns:consultarTicketRequest" />
+      <wsdl:output message="tns:consultarTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrarTickets">
+      <documentation>Timbrado de tickets registrados previamente con el mÃ©todo registrarTicket</documentation>
+      <wsdl:input message="tns:timbrarTicketsRequest" />
+      <wsdl:output message="tns:timbrarTicketsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registrarClienteTickets">
+      <documentation>Registra o actualiza la informaciÃ³n de un cliente</documentation>
+      <wsdl:input message="tns:registrarClienteTicketsRequest" />
+      <wsdl:output message="tns:registrarClienteTicketsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="generarPdf">
+      <documentation>GeneraciÃ³n de pdf segÃºn sea la configuraciÃ³n de la cuenta</documentation>
+      <wsdl:input message="tns:generarPdfRequest" />
+      <wsdl:output message="tns:generarPdfResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreo">
+      <documentation>EnvÃ­o de correo usando configuraciÃ³n de Home Desk</documentation>
+      <wsdl:input message="tns:enviarCorreoRequest" />
+      <wsdl:output message="tns:enviarCorreoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ACP-CFDIBinding" type="tns:ACP-CFDIPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="consultar_folios">
+      <soap:operation soapAction="urn:acpcfdi#consultar_folios" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrado">
+      <soap:operation soapAction="urn:acpcfdi#timbrado" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrado3">
+      <soap:operation soapAction="urn:acpcfdi#timbrado3" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validar">
+      <soap:operation soapAction="urn:acpfdi#validar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="resultado_validacion">
+      <soap:operation soapAction="urn:acpfdi#consultar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarTicket">
+      <soap:operation soapAction="urn:acpcfdi#registrarTicket" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarTicket">
+      <soap:operation soapAction="urn:acpcfdi#consultarTicket" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrarTickets">
+      <soap:operation soapAction="urn:acpcfdi#timbrarTickets" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarClienteTickets">
+      <soap:operation soapAction="urn:acpcfdi#registrarClienteTickets" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generarPdf">
+      <soap:operation soapAction="urn:acpcfdi#generarPdf" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreo">
+      <soap:operation soapAction="urn:acpcfdi#enviarCorreo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:acpcfdi" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACP-CFDI">
+    <wsdl:port name="ACP-CFDIPort" binding="tns:ACP-CFDIBinding">
+      <soap:address location="http://acpdelsureste.com.mx/productos/cfdi.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

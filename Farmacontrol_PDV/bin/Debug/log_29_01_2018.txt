@@ -1,0 +1,22 @@
+
+Log Entry : 03:58:34 p. m. lunes, 29 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+El valor no está dentro del intervalo esperado.
+   en WIA.IProperty.set_Value(Object& pvResult)
+   en Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.conectar_scanner(String scannerId) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Control_escaneo.cs:línea 112
+
+
+
+
+Log Entry : 03:58:54 p. m. lunes, 29 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+El valor no está dentro del intervalo esperado.
+   en WIA.IProperty.set_Value(Object& pvResult)
+   en Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.conectar_scanner(String scannerId) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Control_escaneo.cs:línea 112
+
+
+

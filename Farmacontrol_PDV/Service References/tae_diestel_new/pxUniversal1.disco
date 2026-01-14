@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://dev.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx?wsdl" docRef="https://dev.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://dev.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" xmlns:q1="http://www.pagoexpress.com.mx/pxUniversal" binding="q1:PxUniversalSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://dev.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" xmlns:q2="http://www.pagoexpress.com.mx/pxUniversal" binding="q2:PxUniversalSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

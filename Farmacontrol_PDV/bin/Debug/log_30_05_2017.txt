@@ -1,0 +1,108 @@
+
+Log Entry : 02:14:26 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Duplicate entry '5377-2018-01-01-683-VENTA-131584-0' for key 'articulo_caducidad_lote_tipo_elemento_importado'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 87
+
+
+
+
+Log Entry : 04:22:06 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Table 'farmacontrol_local.existencia' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 87
+
+
+
+
+Log Entry : 04:25:27 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Table 'farmacontrol_local.existencia' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 87
+
+
+
+
+Log Entry : 04:32:00 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Unknown table 'existencia' in MULTI DELETE
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 87
+
+
+
+
+Log Entry : 04:35:26 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Unknown table 'existencia' in MULTI DELETE
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.TransactionCommit() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 87
+
+
+
+
+Log Entry : 04:35:43 p. m. martes, 30 de mayo de 2017
+  :
+  :Nombre terminal: TERMINAL 2
+Terminal id: 4
+Cannot delete or update a parent row: a foreign key constraint fails (`farmacontrol_local`.`ventas_pagos`, CONSTRAINT `fk_ventas_pagos_ventas1` FOREIGN KEY (`venta_id`) REFERENCES `ventas` (`venta_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 239
+
+
+

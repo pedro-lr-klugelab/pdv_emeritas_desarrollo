@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.pagoexpress.com.mx/pxUniversal" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.pagoexpress.com.mx/pxUniversal" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.pagoexpress.com.mx/pxUniversal">
+      <s:element name="Info">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cArrayCampos" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCCampo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="cCampo" nillable="true" type="tns:cCampo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="cCampo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sCampo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="iTipo" type="tns:eTipo" />
+          <s:element minOccurs="1" maxOccurs="1" name="iLongitud" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="iClase" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sValor" />
+          <s:element minOccurs="1" maxOccurs="1" name="bEncriptado" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="eTipo">
+        <s:restriction base="s:string">
+          <s:enumeration value="AN" />
+          <s:enumeration value="NE" />
+          <s:enumeration value="NM" />
+          <s:enumeration value="FD" />
+          <s:enumeration value="HR" />
+          <s:enumeration value="ND" />
+          <s:enumeration value="PW" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="InfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InfoResult" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ejecuta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cArrayCampos" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EjecutaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EjecutaResult" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reversa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cArrayCampos" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReversaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReversaResult" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResult" type="tns:ArrayOfCCampo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfCCampo" nillable="true" type="tns:ArrayOfCCampo" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="InfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Info" />
+  </wsdl:message>
+  <wsdl:message name="InfoSoapOut">
+    <wsdl:part name="parameters" element="tns:InfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EjecutaSoapIn">
+    <wsdl:part name="parameters" element="tns:Ejecuta" />
+  </wsdl:message>
+  <wsdl:message name="EjecutaSoapOut">
+    <wsdl:part name="parameters" element="tns:EjecutaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReversaSoapIn">
+    <wsdl:part name="parameters" element="tns:Reversa" />
+  </wsdl:message>
+  <wsdl:message name="ReversaSoapOut">
+    <wsdl:part name="parameters" element="tns:ReversaResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpPostIn" />
+  <wsdl:message name="TestHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCCampo" />
+  </wsdl:message>
+  <wsdl:portType name="PxUniversalSoap">
+    <wsdl:operation name="Info">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Solicitud de informacion de un producto</wsdl:documentation>
+      <wsdl:input message="tns:InfoSoapIn" />
+      <wsdl:output message="tns:InfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Ejecuta">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aplicacion de peticion sobre el producto seleccionado</wsdl:documentation>
+      <wsdl:input message="tns:EjecutaSoapIn" />
+      <wsdl:output message="tns:EjecutaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reversa">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Aplicacion de reverso sobre el producto seleccionado</wsdl:documentation>
+      <wsdl:input message="tns:ReversaSoapIn" />
+      <wsdl:output message="tns:ReversaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Prueba de conexion al Web Service</wsdl:documentation>
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PxUniversalHttpPost">
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Prueba de conexion al Web Service</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpPostIn" />
+      <wsdl:output message="tns:TestHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PxUniversalSoap" type="tns:PxUniversalSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Info">
+      <soap:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Info" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ejecuta">
+      <soap:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Ejecuta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reversa">
+      <soap:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Reversa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PxUniversalSoap12" type="tns:PxUniversalSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Info">
+      <soap12:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Info" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ejecuta">
+      <soap12:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Ejecuta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reversa">
+      <soap12:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Reversa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://www.pagoexpress.com.mx/pxUniversal/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PxUniversalHttpPost" type="tns:PxUniversalHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PxUniversal">
+    <wsdl:port name="PxUniversalSoap" binding="tns:PxUniversalSoap">
+      <soap:address location="https://www.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PxUniversalSoap12" binding="tns:PxUniversalSoap12">
+      <soap12:address location="https://www.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PxUniversalHttpPost" binding="tns:PxUniversalHttpPost">
+      <http:address location="https://www.integracionesqapx.com.mx/wsUniversal/pxUniversal.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

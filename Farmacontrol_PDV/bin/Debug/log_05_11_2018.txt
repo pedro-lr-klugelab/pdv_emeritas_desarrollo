@@ -1,0 +1,36 @@
+
+Log Entry : 02:41:26 p. m. lunes, 5 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Cannot delete or update a parent row: a foreign key constraint fails (`farmacontrol_local`.`ventas_pagos`, CONSTRAINT `fk_ventas_pagos_ventas1` FOREIGN KEY (`venta_id`) REFERENCES `ventas` (`venta_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 239
+
+
+
+
+Log Entry : 02:48:18 p. m. lunes, 5 de noviembre de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Cannot delete or update a parent row: a foreign key constraint fails (`farmacontrol_local`.`ventas_pagos`, CONSTRAINT `fk_ventas_pagos_ventas1` FOREIGN KEY (`venta_id`) REFERENCES `ventas` (`venta_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 239
+
+
+

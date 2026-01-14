@@ -1,0 +1,42 @@
+
+Log Entry : 04:16:35 p. m. miércoles, 17 de agosto de 2022
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 163
+
+
+
+
+Log Entry : 04:17:57 p. m. miércoles, 17 de agosto de 2022
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 163
+
+
+

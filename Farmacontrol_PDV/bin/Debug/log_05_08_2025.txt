@@ -1,0 +1,97 @@
+
+Log Entry : 09:17:43 p. m. martes, 5 de agosto de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.busqueda_grid() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 76
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 38
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:25:26 p. m. martes, 5 de agosto de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 106
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:27:11 p. m. martes, 5 de agosto de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 106
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:51:37 p. m. martes, 5 de agosto de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+

@@ -1,0 +1,144 @@
+
+Log Entry : 12:02:11 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   en MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   en MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   en MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+No se puede escribir datos de en la conexión de transporte: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+   en MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   en System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+No se puede escribir datos de en la conexión de transporte: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+   en System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   en MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+   en System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   en System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+
+
+Log Entry : 12:02:15 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Impresiones.get_impresion_id(String tipo, Int64 folio, Int64 terminal_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Impresiones.cs:línea 134
+   en Farmacontrol_PDV.HELPERS.Print_new_helper.print(Int64 terminal_id, String texto, String tipo, Int64 folio, Boolean impresora_tickets, Boolean impresion_remota, Boolean sin_aviso, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\HELPERS\Print_helper.cs:línea 264
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.print() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\CLASSES\PRINT\Devolucion.cs:línea 373
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.cancelar_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 946
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.btn_tp3_finalizar_Click_1(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 1230
+
+
+
+
+Log Entry : 02:39:59 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 02:40:02 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La columna 'accion' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion, Boolean devolucion_parcial) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\CLASSES\PRINT\Devolucion.cs:línea 202
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.cancelar_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 945
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.btn_tp3_finalizar_Click_1(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 1230
+
+
+
+
+Log Entry : 03:04:57 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 03:06:41 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 03:08:35 p. m. viernes, 2 de febrero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Cancelaciones.get_cancelacion_parcial(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Cancelaciones.cs:línea 1740
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion, Boolean devolucion_parcial) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\CLASSES\PRINT\Devolucion.cs:línea 198
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.cancelar_venta() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 945
+   en Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.btn_tp3_finalizar_Click_1(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\devolucion\Devolucion_principal.cs:línea 1230
+
+
+

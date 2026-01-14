@@ -1,0 +1,20 @@
+
+Log Entry : 10:35:35 a. m. lunes, 26 de junio de 2017
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Operación no válida a través de subprocesos: Se tuvo acceso al control 'dgv_articulos' desde un subproceso distinto a aquel en que lo creó.
+   en System.Windows.Forms.Control.get_Handle()
+   en System.Windows.Forms.Control.BeginUpdateInternal()
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.ProcessListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.DataGridView.DataGridViewDataConnection.currencyManager_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.OnListChanged(ListChangedEventArgs e)
+   en System.Windows.Forms.CurrencyManager.List_ListChanged(Object sender, ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.OnListChanged(ListChangedEventArgs e)
+   en System.ComponentModel.BindingList`1.FireListChanged(ListChangedType type, Int32 index)
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+

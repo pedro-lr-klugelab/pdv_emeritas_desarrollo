@@ -1,0 +1,68 @@
+
+Log Entry : 11:05:55 a. m. lunes, 15 de abril de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 659
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 11:07:13 a. m. lunes, 15 de abril de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.insertar_producto_devolucion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 942
+
+
+
+
+Log Entry : 11:07:21 a. m. lunes, 15 de abril de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.insertar_producto_devolucion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 942
+
+
+
+
+Log Entry : 11:08:39 a. m. lunes, 15 de abril de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.insertar_producto_devolucion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 942
+
+
+
+
+Log Entry : 11:08:43 a. m. lunes, 15 de abril de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.insertar_producto_devolucion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 942
+
+
+

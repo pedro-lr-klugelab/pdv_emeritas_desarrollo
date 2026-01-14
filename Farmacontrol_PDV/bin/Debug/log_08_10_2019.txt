@@ -1,0 +1,549 @@
+
+Log Entry : 10:56:30 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:57:02 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:58:01 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:59:30 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 666
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 11:00:17 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 682
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 11:02:51 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 11:03:07 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 11:03:14 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 11:03:20 a. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+
+Log Entry : 01:03:08 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:15:05 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt32(String value)
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.cmbox_DropDownClosed_guardar_cantidad(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 690
+   en System.EventHandler.Invoke(Object sender, EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommitted(EventArgs e)
+   en System.Windows.Forms.ComboBox.OnSelectionChangeCommittedInternal(EventArgs e)
+   en System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   en System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.DefWndProc(Message& m)
+   en System.Windows.Forms.Control.WmCommand(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ComboBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:37:42 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 666
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:38:34 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 666
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:39:20 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 666
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 01:40:08 p. m. martes, 8 de octubre de 2019
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.dgv_entradas_EditingControlShowing(Object sender, DataGridViewEditingControlShowingEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\movimientos\devoluciones_mayoristas\Devoluciones_mayoristas_principal.cs:línea 666
+   en System.Windows.Forms.DataGridView.OnEditingControlShowing(DataGridViewEditingControlShowingEventArgs e)
+   en System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   en System.Windows.Forms.DataGridView.BeginEdit(Boolean selectAll)
+   en System.Windows.Forms.DataGridViewTextBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   en System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.DataGridView.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

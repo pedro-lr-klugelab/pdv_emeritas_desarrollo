@@ -1,0 +1,48 @@
+c:\users\mijael hernandez\documents\visual studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mijael hernandez\documents\visual studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mijael hernandez\documents\visual studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mijael hernandez\documents\visual studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\MySql.Data.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.login_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.cotizaciones.cotizaciones_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.ventas.ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.busqueda_productos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.movimientos.recibir_bultos.recibir_bultos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Progressbar_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.xml
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.cambiar_cantidad.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\MySql.Data.dll
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.dll
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.xml
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_productos.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Login_form.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Progressbar_form.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.movimientos.recibir_bultos.Recibir_bultos_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Cambiar_cantidad.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.ventas.Ventas_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.write.1.tlog

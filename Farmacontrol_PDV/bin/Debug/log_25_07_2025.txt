@@ -1,0 +1,67 @@
+
+Log Entry : 02:46:03 p. m. viernes, 25 de julio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ' ',regla , ' Promocion : ', farmacontrol_global.promociones_lealtad.comentario' at line 3
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 02:46:10 p. m. viernes, 25 de julio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_promocion_lealtad.get_promocio_lealtad(Int32 articulo_id) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_promocion_lealtad.cs:línea 43
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.get_productos_lealtad(Int32 articulo_id) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 1152
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.dgv_cotizaciones_SelectionChanged(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 1220
+   en System.Windows.Forms.DataGridView.OnSelectionChanged(EventArgs e)
+   en System.Windows.Forms.DataGridView.FlushSelectionChanged()
+   en System.Windows.Forms.DataGridView.ClearSelection(Int32 columnIndexException, Int32 rowIndexException, Boolean selectExceptionElement)
+   en System.Windows.Forms.DataGridView.SetAndSelectCurrentCellAddress(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick, Boolean clearSelection, Boolean forceCurrentCellSelection)
+   en System.Windows.Forms.DataGridView.MakeFirstDisplayedCellCurrentCell(Boolean includeNewRow)
+   en System.Windows.Forms.DataGridView.OnRowCollectionChanged_PostNotification(Boolean recreateNewRow, Boolean allowSettingCurrentCell, CollectionChangeAction cca, DataGridViewRow dataGridViewRow, Int32 rowIndex)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged_PostNotification(CollectionChangeAction cca, Int32 rowIndex, Int32 rowCount, DataGridViewRow dataGridViewRow, Boolean changeIsDeletion, Boolean changeIsInsertion, Boolean recreateNewRow, Point newCurrentCell)
+   en System.Windows.Forms.DataGridViewRowCollection.OnCollectionChanged(CollectionChangeEventArgs e, Int32 rowIndex, Int32 rowCount)
+   en System.Windows.Forms.DataGridViewRowCollection.AddInternal(DataGridViewRow dataGridViewRow)
+   en System.Windows.Forms.DataGridView.RefreshRows(Boolean scrollIntoView)
+   en System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   en System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   en System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.insertar_producto_cotizacion() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 232
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.txt_cantidad_KeyDown(Object sender, KeyEventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 475
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.NumericUpDown.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.UpDownBase.OnTextBoxKeyDown(Object source, KeyEventArgs e)
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

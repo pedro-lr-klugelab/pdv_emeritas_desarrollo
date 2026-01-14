@@ -1,0 +1,62 @@
+
+Log Entry : 10:05:11 a. m. sábado, 4 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No hay ninguna fila en la posición 0.
+   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 67
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 254
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:09:48 a. m. sábado, 4 de julio de 2015
+  :
+  :Nombre terminal: TERMINAL 1
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   en System.Convert.ToInt64(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_totales(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 2002
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_ticket_venta(Int64 venta_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\DAO\DAO_Ventas.cs:línea 1868
+   en Farmacontrol_PDV.CLASSES.PRINT.Ticket_venta.construccion_ticket(Int64 venta_id, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Ventas.cs:línea 26
+   en Farmacontrol_PDV.CLASSES.PRINT.Devolucion.construccion_ticket(Int64 venta_id, Boolean refacturacion, Boolean reimpresion) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\CLASSES\PRINT\Devolucion.cs:línea 84
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.cancelar_nota() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 301
+   en Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.btn_siguiente_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\FORMS\ventas\refacturacion\Refacturacion_principal.cs:línea 193
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV_pruebas\Farmacontrol_PDV_pruebas\Program.cs:línea 53
+
+
+

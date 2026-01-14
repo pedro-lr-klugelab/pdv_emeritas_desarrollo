@@ -1,0 +1,37 @@
+
+Log Entry : 04:14:14 p. m. jueves, 22 de septiembre de 2022
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Authentication to host 'localhost' for user 'farmacontrol' using method 'mysql_native_password' failed with message: Reading from the stream has failed.
+   en MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   en MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   en MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   en MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   en MySql.Data.MySqlClient.Driver.Open()
+   en MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   en MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   en MySql.Data.MySqlClient.MySqlConnection.Open()
+   en Farmacontrol_PDV.DAO.Conector.Conectar() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 56
+Reading from the stream has failed.
+   en MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.ReadPacket()
+   en MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+No se puede escribir datos de en la conexión de transporte: Se ha anulado una conexión establecida por el software en su equipo host.
+   en MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   en MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   en System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   en MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+Se ha anulado una conexión establecida por el software en su equipo host
+   en System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   en System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+

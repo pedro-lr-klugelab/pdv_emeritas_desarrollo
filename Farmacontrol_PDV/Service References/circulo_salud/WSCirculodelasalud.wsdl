@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoCadena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoSucursal" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:ResponseLogin" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseLogin">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Logout">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogoutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LogoutResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivateCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivateCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ActivateCardResult" type="tns:ResponseActivateCard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseActivateCard">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Activada" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ActivateCardUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaNacimiento" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="CP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivateCardUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ActivateCardUserResult" type="tns:ResponseActivateCard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoProductCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoProductCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoProductCardResult" type="tns:ArrayOfResponseInfoProductCard" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfResponseInfoProductCard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ResponseInfoProductCard" nillable="true" type="tns:ResponseInfoProductCard" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ResponseInfoProductCard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SkuGratis" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasFaltantes" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasGratis" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasPendientes" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInfoCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoCardResult" type="tns:Tarjeta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Tarjeta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="folio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="folio_codigo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_registro" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_asignacion" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_activacion" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_vigencia" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="id_usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cliente" type="tns:Cliente" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Cliente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInfoPatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoPatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoPatientResult" type="tns:Paciente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Paciente">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="membresia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="numerocuenta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="apellidopaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="apellidomaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="colonia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="codigopostal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ciudad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rfc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="curp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sexo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="estadocivil" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechanacimiento" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="nacionalidad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ladatel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="telefono" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ladacel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="celular" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="facebook" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="twitter" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="status" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="terminos" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="veracidad" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="medioenterado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="medioinformacion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechaactivaciontarjeta" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="validadesde" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="idtarjetareasignada" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="validahasta" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario_create" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_create" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="puntos_acumulados" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetPatientPoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientPointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPatientPointsResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatementPatientPoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatementPatientPointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStatementPatientPointsResult" type="tns:ResponseStatementPatientPoints" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseStatementPatientPoints">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Detalles" type="tns:ArrayOfDetallePuntos" />
+          <s:element minOccurs="1" maxOccurs="1" name="HayDetalles" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsError" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDetallePuntos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DetallePuntos" nillable="true" type="tns:DetallePuntos" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DetallePuntos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PuntosAcumulados" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PuntosUsados" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Saldo" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdatePatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="paciente" type="tns:UpdatePatientRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdatePatientRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Membresia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Direccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Colonia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoPostal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ciudad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Rfc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Curp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstadoCivil" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Celular" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdatePatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdatePatientResult" type="tns:UpdatePatientResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdatePatientResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Actualizado" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetStatementPatientProducts">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatementPatientProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStatementPatientProductsResult" type="tns:ResponseStatementPatientProducts" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseStatementPatientProducts">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Detalles" type="tns:ArrayOfDetalleCompras" />
+          <s:element minOccurs="1" maxOccurs="1" name="HayDetalles" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsError" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDetalleCompras">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DetalleCompras" nillable="true" type="tns:DetalleCompras" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DetalleCompras">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Farmacia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Presentacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PiezasCompradas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ObsequiosEntregados" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ObsequiosPendientes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescuentosMonto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescuentosPorcentaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Programa" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBonusProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Piezas" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBonusProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBonusProductResult" type="tns:ArrayOfResponseBonus" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfResponseBonus">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ResponseBonus" nillable="true" type="tns:ResponseBonus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ResponseBonus">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasPorComprar" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasGratis" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasAcumuladas" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasPendientes" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajeDescuento" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoDescuento" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoPrecioDescuento" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioFijo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajePuntos" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="EfectivoxPunto" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBonusProductList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Productos" type="tns:ArrayOfBonusProductList" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfBonusProductList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BonusProductList" nillable="true" type="tns:BonusProductList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BonusProductList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Piezas" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBonusProductListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBonusProductListResult" type="tns:ArrayOfResponseBonusList" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfResponseBonusList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ResponseBonusList" nillable="true" type="tns:ResponseBonusList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ResponseBonusList">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ResponseBonus" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetInfoProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PiezasCompradas" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoProductResult" type="tns:Articulo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Articulo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="codigoalterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="codigoEAN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcioncorto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcionlarga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="laboratorio" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechaalta" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechavigencia" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="marca" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="preciodistribuidor" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="preciodesc" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechainiciooferteo" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="fechafinoferteo" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="duracion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="requierereceta" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="status" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario_create" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="fecha_create" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="OferteoProducto" type="tns:OferteoProducto" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OferteoProducto">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaFin" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajeDescuento" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioFijo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CompraX" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="LlevaY" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajePuntos" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioPuntos" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoDescuento" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoPrecioDescuento" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoPromocion" type="tns:eTipoPromocion" />
+          <s:element minOccurs="1" maxOccurs="1" name="AfectaSobre" type="tns:eAfectaSobre" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SkuObsequio" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="eTipoPromocion">
+        <s:restriction base="s:string">
+          <s:enumeration value="NoAplica" />
+          <s:enumeration value="Porcentaje" />
+          <s:enumeration value="PrecioFijo" />
+          <s:enumeration value="CompraXGratisY" />
+          <s:enumeration value="CompraAllevaB" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="eAfectaSobre">
+        <s:restriction base="s:string">
+          <s:enumeration value="NoAplica" />
+          <s:enumeration value="PrecioPublico" />
+          <s:enumeration value="NotaVenta" />
+          <s:enumeration value="MonederoElectronico" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="getVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPromocionesEspeciales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:GetPromocionesRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetPromocionesRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoCadena" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetPromocionesEspecialesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPromocionesEspecialesResult" type="tns:GetPromocionesResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetPromocionesResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMessage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Promociones" type="tns:ArrayOfPromocion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPromocion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Promocion" nillable="true" type="tns:Promocion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Promocion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Presentacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombrePromocion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaFin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoPromocion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Politicas" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInfoPromocionProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoPromocionProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoPromocionProductResult" type="tns:GetPromocionCurrentResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetPromocionCurrentResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorMessage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Promocion" type="tns:PromocionActual" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PromocionActual">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Presentacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombrePromocion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tipo_promocion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Vigencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Laboratorio" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_Sales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pedido" type="tns:Pedido" />
+            <s:element minOccurs="0" maxOccurs="1" name="Articulos" type="tns:ArrayOfPedidoArticulos" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Pedido">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NoTarjeta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CedulaProfesionalMedico" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Total" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="NoTicket" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPedidoArticulos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PedidoArticulos" nillable="true" type="tns:PedidoArticulos" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PedidoArticulos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Precio" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioPOS" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrecioFijo" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajeDescuento" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoDescuento" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasPagadas" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasGratis" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IVA" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PorcentajeIVA" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_SalesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Create_SalesResult" type="tns:ResponseSales" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseSales">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Pedido" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PuntosGenerados" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArticulosPendientes" type="tns:ArrayOfResponseSalesArticulos" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfResponseSalesArticulos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ResponseSalesArticulos" nillable="true" type="tns:ResponseSalesArticulos" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ResponseSalesArticulos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PiezasPendientes" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_Sales_Folio_Receta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pedido" type="tns:Pedido" />
+            <s:element minOccurs="0" maxOccurs="1" name="Articulos" type="tns:ArrayOfPedidoArticulos" />
+            <s:element minOccurs="0" maxOccurs="1" name="FolioReceta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_Sales_Folio_RecetaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Create_Sales_Folio_RecetaResult" type="tns:ResponseSales" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInfoDevolucionProductos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sesion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="skuProductos" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInfoDevolucionProductosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInfoDevolucionProductosResult" type="tns:ResponseGetnfoDevolucionesProductos" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseGetnfoDevolucionesProductos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Productos" type="tns:ArrayOfInfoDevolucionProducto" />
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfInfoDevolucionProducto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="InfoDevolucionProducto" nillable="true" type="tns:InfoDevolucionProducto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InfoDevolucionProducto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sku" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AceptaDevolucion" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetReposicionesCadena">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReposicionesCadenaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReposicionesCadenaResult" type="tns:ResponseReposiciones" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseReposiciones">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HuboError" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reposiciones">
+            <s:complexType>
+              <s:sequence>
+                <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetReposicionesSucursal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReposicionesSucursalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReposicionesSucursalResult" type="tns:ResponseReposiciones" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestConnect">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestConnectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TestConnectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResponseLogin" nillable="true" type="tns:ResponseLogin" />
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="ResponseActivateCard" nillable="true" type="tns:ResponseActivateCard" />
+      <s:element name="ArrayOfResponseInfoProductCard" nillable="true" type="tns:ArrayOfResponseInfoProductCard" />
+      <s:element name="Tarjeta" nillable="true" type="tns:Tarjeta" />
+      <s:element name="Paciente" nillable="true" type="tns:Paciente" />
+      <s:element name="long" type="s:long" />
+      <s:element name="ResponseStatementPatientPoints" nillable="true" type="tns:ResponseStatementPatientPoints" />
+      <s:element name="ResponseStatementPatientProducts" nillable="true" type="tns:ResponseStatementPatientProducts" />
+      <s:element name="ArrayOfResponseBonus" nillable="true" type="tns:ArrayOfResponseBonus" />
+      <s:element name="Articulo" nillable="true" type="tns:Articulo" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="GetPromocionCurrentResponse" nillable="true" type="tns:GetPromocionCurrentResponse" />
+      <s:element name="ResponseGetnfoDevolucionesProductos" nillable="true" type="tns:ResponseGetnfoDevolucionesProductos" />
+      <s:element name="ResponseReposiciones" nillable="true" type="tns:ResponseReposiciones" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapIn">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardSoapIn">
+    <wsdl:part name="parameters" element="tns:ActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardSoapOut">
+    <wsdl:part name="parameters" element="tns:ActivateCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserSoapIn">
+    <wsdl:part name="parameters" element="tns:ActivateCardUser" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserSoapOut">
+    <wsdl:part name="parameters" element="tns:ActivateCardUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoProductCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoProductCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoPatient" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStatementPatientPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStatementPatientPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePatientSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePatient" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePatientSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStatementPatientProducts" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStatementPatientProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBonusProduct" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBonusProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBonusProductList" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBonusProductListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoProduct" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getVersion" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPromocionesEspecialesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPromocionesEspeciales" />
+  </wsdl:message>
+  <wsdl:message name="GetPromocionesEspecialesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPromocionesEspecialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoPromocionProduct" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoPromocionProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_SalesSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_Sales" />
+  </wsdl:message>
+  <wsdl:message name="Create_SalesSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_SalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_Sales_Folio_RecetaSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_Sales_Folio_Receta" />
+  </wsdl:message>
+  <wsdl:message name="Create_Sales_Folio_RecetaSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_Sales_Folio_RecetaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInfoDevolucionProductos" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInfoDevolucionProductosResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReposicionesCadena" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReposicionesCadenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReposicionesSucursal" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReposicionesSucursalResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectSoapIn">
+    <wsdl:part name="parameters" element="tns:TestConnect" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectSoapOut">
+    <wsdl:part name="parameters" element="tns:TestConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpGetIn">
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="CodigoCadena" type="s:string" />
+    <wsdl:part name="CodigoSucursal" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseLogin" />
+  </wsdl:message>
+  <wsdl:message name="LogoutHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogoutHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+    <wsdl:part name="ApellidoPaterno" type="s:string" />
+    <wsdl:part name="ApellidoMaterno" type="s:string" />
+    <wsdl:part name="Telefono" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+    <wsdl:part name="ApellidoPaterno" type="s:string" />
+    <wsdl:part name="ApellidoMaterno" type="s:string" />
+    <wsdl:part name="Telefono" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Sexo" type="s:string" />
+    <wsdl:part name="FechaNacimiento" type="s:string" />
+    <wsdl:part name="CP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfResponseInfoProductCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:Tarjeta" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientHttpGetOut">
+    <wsdl:part name="Body" element="tns:Paciente" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsHttpGetOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseStatementPatientPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseStatementPatientProducts" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+    <wsdl:part name="Piezas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfResponseBonus" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+    <wsdl:part name="PiezasCompradas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductHttpGetOut">
+    <wsdl:part name="Body" element="tns:Articulo" />
+  </wsdl:message>
+  <wsdl:message name="getVersionHttpGetIn" />
+  <wsdl:message name="getVersionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductHttpGetOut">
+    <wsdl:part name="Body" element="tns:GetPromocionCurrentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosHttpGetIn">
+    <wsdl:part name="sesion" type="s:string" />
+    <wsdl:part name="skuProductos" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseGetnfoDevolucionesProductos" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseReposiciones" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalHttpGetIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResponseReposiciones" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectHttpGetIn" />
+  <wsdl:message name="TestConnectHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpPostIn">
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="CodigoCadena" type="s:string" />
+    <wsdl:part name="CodigoSucursal" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseLogin" />
+  </wsdl:message>
+  <wsdl:message name="LogoutHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogoutHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+    <wsdl:part name="ApellidoPaterno" type="s:string" />
+    <wsdl:part name="ApellidoMaterno" type="s:string" />
+    <wsdl:part name="Telefono" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+    <wsdl:part name="ApellidoPaterno" type="s:string" />
+    <wsdl:part name="ApellidoMaterno" type="s:string" />
+    <wsdl:part name="Telefono" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Sexo" type="s:string" />
+    <wsdl:part name="FechaNacimiento" type="s:string" />
+    <wsdl:part name="CP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ActivateCardUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfResponseInfoProductCard" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:Tarjeta" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPatientHttpPostOut">
+    <wsdl:part name="Body" element="tns:Paciente" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPointsHttpPostOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientPointsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseStatementPatientPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatementPatientProductsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseStatementPatientProducts" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="NoTarjeta" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+    <wsdl:part name="Piezas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBonusProductHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfResponseBonus" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+    <wsdl:part name="PiezasCompradas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoProductHttpPostOut">
+    <wsdl:part name="Body" element="tns:Articulo" />
+  </wsdl:message>
+  <wsdl:message name="getVersionHttpPostIn" />
+  <wsdl:message name="getVersionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+    <wsdl:part name="Sku" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoPromocionProductHttpPostOut">
+    <wsdl:part name="Body" element="tns:GetPromocionCurrentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosHttpPostIn">
+    <wsdl:part name="sesion" type="s:string" />
+    <wsdl:part name="skuProductos" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="GetInfoDevolucionProductosHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseGetnfoDevolucionesProductos" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesCadenaHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseReposiciones" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalHttpPostIn">
+    <wsdl:part name="Sesion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReposicionesSucursalHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResponseReposiciones" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectHttpPostIn" />
+  <wsdl:message name="TestConnectHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="WSCirculodelaSaludSoap">
+    <wsdl:operation name="Login">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Inicializa la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Finaliza la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LogoutSoapIn" />
+      <wsdl:output message="tns:LogoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardSoapIn" />
+      <wsdl:output message="tns:ActivateCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardUserSoapIn" />
+      <wsdl:output message="tns:ActivateCardUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la membresia con los articulos faltantes para la promocion y los articulos pendientes por ser entregados</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductCardSoapIn" />
+      <wsdl:output message="tns:GetInfoProductCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCardSoapIn" />
+      <wsdl:output message="tns:GetInfoCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del paciente especificado en el No. de Tarjeta asociado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPatientSoapIn" />
+      <wsdl:output message="tns:GetInfoPatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los puntos acumulados del paciente asociado al No. de Tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPointsSoapIn" />
+      <wsdl:output message="tns:GetPatientPointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados de los puntos</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientPointsSoapIn" />
+      <wsdl:output message="tns:GetStatementPatientPointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Actualiza los datos del paciente proporcionado</wsdl:documentation>
+      <wsdl:input message="tns:UpdatePatientSoapIn" />
+      <wsdl:output message="tns:UpdatePatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados por el paciente</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientProductsSoapIn" />
+      <wsdl:output message="tns:GetStatementPatientProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los beneficios de producto gratis de la membresia con el articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetBonusProductSoapIn" />
+      <wsdl:output message="tns:GetBonusProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProductList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los beneficios de producto gratis de la membresia de una lista de articulos especificados</wsdl:documentation>
+      <wsdl:input message="tns:GetBonusProductListSoapIn" />
+      <wsdl:output message="tns:GetBonusProductListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductSoapIn" />
+      <wsdl:output message="tns:GetInfoProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:getVersionSoapIn" />
+      <wsdl:output message="tns:getVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPromocionesEspeciales">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa las promociones que la cadena ofrece dentro de circulo de la salud</wsdl:documentation>
+      <wsdl:input message="tns:GetPromocionesEspecialesSoapIn" />
+      <wsdl:output message="tns:GetPromocionesEspecialesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la promocion del articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPromocionProductSoapIn" />
+      <wsdl:output message="tns:GetInfoPromocionProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Crea el pedido del paciente con los datos requeridos</wsdl:documentation>
+      <wsdl:input message="tns:Create_SalesSoapIn" />
+      <wsdl:output message="tns:Create_SalesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales_Folio_Receta">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Crea el pedido del paciente con los datos requeridos, más el folio de receta</wsdl:documentation>
+      <wsdl:input message="tns:Create_Sales_Folio_RecetaSoapIn" />
+      <wsdl:output message="tns:Create_Sales_Folio_RecetaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método que devuelve si una lista de productos se puede devolver</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoDevolucionProductosSoapIn" />
+      <wsdl:output message="tns:GetInfoDevolucionProductosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las cadenas de farmacia</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesCadenaSoapIn" />
+      <wsdl:output message="tns:GetReposicionesCadenaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las sucursales</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesSucursalSoapIn" />
+      <wsdl:output message="tns:GetReposicionesSucursalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Prueba de conexion con el servicio web</wsdl:documentation>
+      <wsdl:input message="tns:TestConnectSoapIn" />
+      <wsdl:output message="tns:TestConnectSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSCirculodelaSaludHttpGet">
+    <wsdl:operation name="Login">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Inicializa la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LoginHttpGetIn" />
+      <wsdl:output message="tns:LoginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Finaliza la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LogoutHttpGetIn" />
+      <wsdl:output message="tns:LogoutHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardHttpGetIn" />
+      <wsdl:output message="tns:ActivateCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardUserHttpGetIn" />
+      <wsdl:output message="tns:ActivateCardUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la membresia con los articulos faltantes para la promocion y los articulos pendientes por ser entregados</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductCardHttpGetIn" />
+      <wsdl:output message="tns:GetInfoProductCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCardHttpGetIn" />
+      <wsdl:output message="tns:GetInfoCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del paciente especificado en el No. de Tarjeta asociado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPatientHttpGetIn" />
+      <wsdl:output message="tns:GetInfoPatientHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los puntos acumulados del paciente asociado al No. de Tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPointsHttpGetIn" />
+      <wsdl:output message="tns:GetPatientPointsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados de los puntos</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientPointsHttpGetIn" />
+      <wsdl:output message="tns:GetStatementPatientPointsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados por el paciente</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientProductsHttpGetIn" />
+      <wsdl:output message="tns:GetStatementPatientProductsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los beneficios de producto gratis de la membresia con el articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetBonusProductHttpGetIn" />
+      <wsdl:output message="tns:GetBonusProductHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductHttpGetIn" />
+      <wsdl:output message="tns:GetInfoProductHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:getVersionHttpGetIn" />
+      <wsdl:output message="tns:getVersionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la promocion del articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPromocionProductHttpGetIn" />
+      <wsdl:output message="tns:GetInfoPromocionProductHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método que devuelve si una lista de productos se puede devolver</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoDevolucionProductosHttpGetIn" />
+      <wsdl:output message="tns:GetInfoDevolucionProductosHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las cadenas de farmacia</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesCadenaHttpGetIn" />
+      <wsdl:output message="tns:GetReposicionesCadenaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las sucursales</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesSucursalHttpGetIn" />
+      <wsdl:output message="tns:GetReposicionesSucursalHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Prueba de conexion con el servicio web</wsdl:documentation>
+      <wsdl:input message="tns:TestConnectHttpGetIn" />
+      <wsdl:output message="tns:TestConnectHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSCirculodelaSaludHttpPost">
+    <wsdl:operation name="Login">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Inicializa la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LoginHttpPostIn" />
+      <wsdl:output message="tns:LoginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Finaliza la sesion en el webservice</wsdl:documentation>
+      <wsdl:input message="tns:LogoutHttpPostIn" />
+      <wsdl:output message="tns:LogoutHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardHttpPostIn" />
+      <wsdl:output message="tns:ActivateCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Activa la membresia</wsdl:documentation>
+      <wsdl:input message="tns:ActivateCardUserHttpPostIn" />
+      <wsdl:output message="tns:ActivateCardUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la membresia con los articulos faltantes para la promocion y los articulos pendientes por ser entregados</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductCardHttpPostIn" />
+      <wsdl:output message="tns:GetInfoProductCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoCardHttpPostIn" />
+      <wsdl:output message="tns:GetInfoCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del paciente especificado en el No. de Tarjeta asociado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPatientHttpPostIn" />
+      <wsdl:output message="tns:GetInfoPatientHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los puntos acumulados del paciente asociado al No. de Tarjeta</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPointsHttpPostIn" />
+      <wsdl:output message="tns:GetPatientPointsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados de los puntos</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientPointsHttpPostIn" />
+      <wsdl:output message="tns:GetStatementPatientPointsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los movimentos realizados por el paciente</wsdl:documentation>
+      <wsdl:input message="tns:GetStatementPatientProductsHttpPostIn" />
+      <wsdl:output message="tns:GetStatementPatientProductsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa los beneficios de producto gratis de la membresia con el articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetBonusProductHttpPostIn" />
+      <wsdl:output message="tns:GetBonusProductHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoProductHttpPostIn" />
+      <wsdl:output message="tns:GetInfoProductHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion del producto</wsdl:documentation>
+      <wsdl:input message="tns:getVersionHttpPostIn" />
+      <wsdl:output message="tns:getVersionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa la informacion de la promocion del articulo especificado</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoPromocionProductHttpPostIn" />
+      <wsdl:output message="tns:GetInfoPromocionProductHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método que devuelve si una lista de productos se puede devolver</wsdl:documentation>
+      <wsdl:input message="tns:GetInfoDevolucionProductosHttpPostIn" />
+      <wsdl:output message="tns:GetInfoDevolucionProductosHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las cadenas de farmacia</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesCadenaHttpPostIn" />
+      <wsdl:output message="tns:GetReposicionesCadenaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Muestra un reporte de las reposiciones de las sucursales</wsdl:documentation>
+      <wsdl:input message="tns:GetReposicionesSucursalHttpPostIn" />
+      <wsdl:output message="tns:GetReposicionesSucursalHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Prueba de conexion con el servicio web</wsdl:documentation>
+      <wsdl:input message="tns:TestConnectHttpPostIn" />
+      <wsdl:output message="tns:TestConnectHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSCirculodelaSaludSoap" type="tns:WSCirculodelaSaludSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <soap:operation soapAction="http://tempuri.org/ActivateCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <soap:operation soapAction="http://tempuri.org/ActivateCardUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <soap:operation soapAction="http://tempuri.org/GetInfoProductCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <soap:operation soapAction="http://tempuri.org/GetInfoCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <soap:operation soapAction="http://tempuri.org/GetInfoPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <soap:operation soapAction="http://tempuri.org/GetPatientPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <soap:operation soapAction="http://tempuri.org/GetStatementPatientPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatient">
+      <soap:operation soapAction="http://tempuri.org/UpdatePatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <soap:operation soapAction="http://tempuri.org/GetStatementPatientProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <soap:operation soapAction="http://tempuri.org/GetBonusProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProductList">
+      <soap:operation soapAction="http://tempuri.org/GetBonusProductList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <soap:operation soapAction="http://tempuri.org/GetInfoProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPromocionesEspeciales">
+      <soap:operation soapAction="http://tempuri.org/GetPromocionesEspeciales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <soap:operation soapAction="http://tempuri.org/GetInfoPromocionProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales">
+      <soap:operation soapAction="http://tempuri.org/Create_Sales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales_Folio_Receta">
+      <soap:operation soapAction="http://tempuri.org/Create_Sales_Folio_Receta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <soap:operation soapAction="http://tempuri.org/GetInfoDevolucionProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <soap:operation soapAction="http://tempuri.org/GetReposicionesCadena" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <soap:operation soapAction="http://tempuri.org/GetReposicionesSucursal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <soap:operation soapAction="http://tempuri.org/TestConnect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSCirculodelaSaludSoap12" type="tns:WSCirculodelaSaludSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap12:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <soap12:operation soapAction="http://tempuri.org/ActivateCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <soap12:operation soapAction="http://tempuri.org/ActivateCardUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoProductCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <soap12:operation soapAction="http://tempuri.org/GetPatientPoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <soap12:operation soapAction="http://tempuri.org/GetStatementPatientPoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatient">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <soap12:operation soapAction="http://tempuri.org/GetStatementPatientProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <soap12:operation soapAction="http://tempuri.org/GetBonusProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProductList">
+      <soap12:operation soapAction="http://tempuri.org/GetBonusProductList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap12:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPromocionesEspeciales">
+      <soap12:operation soapAction="http://tempuri.org/GetPromocionesEspeciales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoPromocionProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales">
+      <soap12:operation soapAction="http://tempuri.org/Create_Sales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Sales_Folio_Receta">
+      <soap12:operation soapAction="http://tempuri.org/Create_Sales_Folio_Receta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <soap12:operation soapAction="http://tempuri.org/GetInfoDevolucionProductos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <soap12:operation soapAction="http://tempuri.org/GetReposicionesCadena" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <soap12:operation soapAction="http://tempuri.org/GetReposicionesSucursal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <soap12:operation soapAction="http://tempuri.org/TestConnect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSCirculodelaSaludHttpGet" type="tns:WSCirculodelaSaludHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Login">
+      <http:operation location="/Login" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <http:operation location="/Logout" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <http:operation location="/ActivateCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <http:operation location="/ActivateCardUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <http:operation location="/GetInfoProductCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <http:operation location="/GetInfoCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <http:operation location="/GetInfoPatient" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <http:operation location="/GetPatientPoints" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <http:operation location="/GetStatementPatientPoints" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <http:operation location="/GetStatementPatientProducts" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <http:operation location="/GetBonusProduct" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <http:operation location="/GetInfoProduct" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <http:operation location="/getVersion" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <http:operation location="/GetInfoPromocionProduct" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <http:operation location="/GetInfoDevolucionProductos" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <http:operation location="/GetReposicionesCadena" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <http:operation location="/GetReposicionesSucursal" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <http:operation location="/TestConnect" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSCirculodelaSaludHttpPost" type="tns:WSCirculodelaSaludHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Login">
+      <http:operation location="/Login" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <http:operation location="/Logout" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCard">
+      <http:operation location="/ActivateCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateCardUser">
+      <http:operation location="/ActivateCardUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProductCard">
+      <http:operation location="/GetInfoProductCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoCard">
+      <http:operation location="/GetInfoCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPatient">
+      <http:operation location="/GetInfoPatient" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPoints">
+      <http:operation location="/GetPatientPoints" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientPoints">
+      <http:operation location="/GetStatementPatientPoints" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatementPatientProducts">
+      <http:operation location="/GetStatementPatientProducts" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBonusProduct">
+      <http:operation location="/GetBonusProduct" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoProduct">
+      <http:operation location="/GetInfoProduct" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <http:operation location="/getVersion" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoPromocionProduct">
+      <http:operation location="/GetInfoPromocionProduct" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfoDevolucionProductos">
+      <http:operation location="/GetInfoDevolucionProductos" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesCadena">
+      <http:operation location="/GetReposicionesCadena" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReposicionesSucursal">
+      <http:operation location="/GetReposicionesSucursal" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnect">
+      <http:operation location="/TestConnect" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSCirculodelaSalud">
+    <wsdl:port name="WSCirculodelaSaludSoap" binding="tns:WSCirculodelaSaludSoap">
+      <soap:address location="http://189.202.202.107/nadro_pruebas/WSCirculodelasalud.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSCirculodelaSaludSoap12" binding="tns:WSCirculodelaSaludSoap12">
+      <soap12:address location="http://189.202.202.107/nadro_pruebas/WSCirculodelasalud.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSCirculodelaSaludHttpGet" binding="tns:WSCirculodelaSaludHttpGet">
+      <http:address location="http://189.202.202.107/nadro_pruebas/WSCirculodelasalud.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSCirculodelaSaludHttpPost" binding="tns:WSCirculodelaSaludHttpPost">
+      <http:address location="http://189.202.202.107/nadro_pruebas/WSCirculodelasalud.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

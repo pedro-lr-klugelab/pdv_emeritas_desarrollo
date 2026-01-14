@@ -1,0 +1,110 @@
+
+Log Entry : 11:39:25 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 811
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:40:34 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 811
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:42:10 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 811
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:43:57 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 811
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:52:57 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Unknown column 'articulos_amecops.amecop' in 'field list'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 163
+
+
+
+
+Log Entry : 11:53:03 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 804
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:54:31 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 810
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+
+
+Log Entry : 11:55:51 a. m. martes, 2 de junio de 2020
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   en System.Convert.ToDecimal(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Existencias.get_valuacion_inventario() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Existencias.cs:línea 810
+   en Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.generar_pdf() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\reportes\valuacion_inventario\Valuacion_inventario_principal.cs:línea 109
+
+
+

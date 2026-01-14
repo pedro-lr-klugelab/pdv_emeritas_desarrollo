@@ -1,0 +1,316 @@
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\MySql.Data.dll
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.dll
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\bin\Debug\RestSharp.xml
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_productos.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Login_form.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Progressbar_form.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.movimientos.recibir_bultos.Recibir_bultos_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.comunes.Cambiar_cantidad.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\FarmacontrolPDV.FORMS.ventas.ventas.Ventas_principal.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\FarmacontrolPDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\MySql.Data.dll
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\RestSharp.dll
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\bin\Debug\RestSharp.xml
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Principal.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Login_form.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Progressbar_form.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recibir_bultos.Recibir_bultos_principal.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Cambiar_cantidad.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Temp\FarmacontrolPDV\Farmacontrol_PDV\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\MySql.Data.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\RestSharp.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\RestSharp.xml
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Login_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Progressbar_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recibir_bultos.Recibir_bultos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Cambiar_cantidad.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_pausadas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Importar_cotizacion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Pago_tipos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe.manifest
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.application
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.exe.manifest
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.application
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.csproj.ResolveComReference.cache
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Custom_alert.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Catalogo_clientes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Registro_clientes.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_codigos_postales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Sin_codigo_postal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Editar_cliente.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Registrar_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.consulta_ventas.Consulta_ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.consulta_ventas.Folio_consulta.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.devolucion.Tipo_devolucion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Traspasos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Sucursales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.opciones.configuracion.Configuracion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Resolucion_conflictos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Traspaso_complementario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_caducidades_lotes.Ajuste_caducidades_lotes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_caducidades_lotes.Pedir_amecop.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Recibir_traspaso_complementario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Importar_traspaso_venta.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Venta_traspaso.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Cupones.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_existencias.Ajuste_existencias_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.apartado_mercancia.Apartado_mercancia_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.apartado_mercancia.Destino_apartado.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Recepciones_mayoristas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Interop.WIA.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Entradas_mayorista.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Mayoristas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Productos_devolucion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.mermas.Mermas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.captura_inventarios.Captura_inventarios_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.creacion_inventarios.Creacion_inventarios_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.creacion_inventarios.Informacion_general_inventario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.kardex_articulos.Kardex_articulos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Catalogo_rfc_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Editar_rfc.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.cortes.corte_parcial.Corte_parcial_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.cortes.corte_total.Corte_total_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Registro_terminal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias_sucursales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias_caducidades.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.desplazamientos.Desplazamiento_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_captura.Ventas_mayoreo_captura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_cliente_mayoreo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_revision.Ventas_mayoreo_revision.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_revision.Revision_productos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devolucion_rechazada.Devolucion_rechazada_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devolucion_rechazada.Rechazo_con_factura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Articulos_empaques.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Upload_file.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.CrystalReports.TemplateEngine.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizacion_correo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\FORMS\reportes\valuacion_inventario\Report_valuacion_inventario.rpt
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\FORMS\reportes\valuacion_inventario\Report_valuacion_inventario.cs
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Ingresar_prepago_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Pago_tipos_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_cliente.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ingresar_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Venta_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Entrega_parcial_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Rastreo_piezas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Abonos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Cancelar_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_principal_otro.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Venta_factura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizar_formula.Cotizar_formula_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizar_formula.Busqueda_productos_materias_primas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ingresar_formula_magistral.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Elaborar_formula_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Formula_sucursal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Formula_articulos_local.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Interop.SF_CFDI_WS_TypeLib.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Agregar_productos_anaquel.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Anaqueles_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Editar_nombre_anaquel.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Catalogo_facturas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.caducidades.Caducidades_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.cambios_precio.Cambios_precio_informacion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.cambios_precio.Cambios_precio_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.faltantes.Faltantes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2010\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.faltantes.Faltantes_sucursal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\FORMS\reportes\valuacion_inventario\Report_valuacion_inventario.rpt
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\FORMS\reportes\valuacion_inventario\Report_valuacion_inventario.cs
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe.config
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe.manifest
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.application
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Farmacontrol_PDV.pdb
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.CrystalReports.TemplateEngine.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\RestSharp.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\RestSharp.xml
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Design.resources.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Interop.WIA.dll
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.csproj.ResolveComReference.cache
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Agregar_productos_anaquel.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Anaqueles_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.anaqueles.Editar_nombre_anaquel.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Abonos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Catalogo_clientes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Editar_cliente.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes.Registrar_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Catalogo_facturas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Catalogo_rfc_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.catalogo_rfc.Editar_rfc.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.kardex_articulos.Kardex_articulos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_cliente.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_cliente_mayoreo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_codigos_postales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_rfcs.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_creditos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Custom_alert.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Login_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Progressbar_form.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Busqueda_clientes_domicilios.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Rastreo_piezas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Registro_clientes.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Registro_terminal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Sin_codigo_postal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.caducidades.Caducidades_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.cambios_precio.Cambios_precio_informacion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.cambios_precio.Cambios_precio_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias_caducidades.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.consulta_existencias.Consulta_existencias_sucursales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.desplazamientos.Desplazamiento_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.faltantes.Faltantes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.consultas.faltantes.Faltantes_sucursal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.cortes.corte_parcial.Corte_parcial_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.cortes.corte_total.Corte_total_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_caducidades_lotes.Ajuste_caducidades_lotes_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_caducidades_lotes.Pedir_amecop.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.ajuste_existencias.Ajuste_existencias_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.captura_inventarios.Captura_inventarios_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.creacion_inventarios.Creacion_inventarios_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.inventarios.creacion_inventarios.Informacion_general_inventario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.apartado_mercancia.Apartado_mercancia_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.apartado_mercancia.Destino_apartado.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Devoluciones_mayoristas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Entradas_mayorista.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Mayoristas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devoluciones_mayoristas.Productos_devolucion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devolucion_rechazada.Devolucion_rechazada_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.devolucion_rechazada.Rechazo_con_factura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.mermas.Mermas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Articulos_empaques.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Recepciones_mayoristas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Upload_file.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.recibir_bultos.Recibir_bultos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Cambiar_cantidad.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Recibir_traspaso_complementario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Resolucion_conflictos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Sucursales.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Traspasos_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.movimientos.traspasos.Traspaso_complementario.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.opciones.configuracion.Configuracion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.reportes.valuacion_inventario.Valuacion_inventario_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizacion_correo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizar_formula.Busqueda_productos_materias_primas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizar_formula.Cotizar_formula_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.devolucion.Devolucion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.consulta_ventas.Consulta_ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.consulta_ventas.Folio_consulta.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_pausadas.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.devolucion.Tipo_devolucion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Elaborar_formula_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Formula_articulos_local.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.elaborar_formula.Formula_sucursal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_principal_otro.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Venta_factura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Entrega_parcial_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Ingresar_prepago_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Pago_tipos_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.refacturacion.Refacturacion_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Cancelar_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Cupones.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Importar_cotizacion.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Importar_traspaso_venta.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ingresar_formula_magistral.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ingresar_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Pago_tipos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Venta_prepago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas.Venta_traspaso.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_captura.Ventas_mayoreo_captura.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_revision.Revision_productos.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.ventas_mayoreo_revision.Ventas_mayoreo_revision.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.Properties.Resources.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.csproj.GenerateResource.Cache
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.exe.manifest
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.application
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.exe
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.pdb
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Tipos_pago.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.reportes.ventas.Ventas_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.servicios_domicilio_enviar.Servicios_domicilio_enviar_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Log_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.servicios_domicilio_saldar.Servicios_domicilio_saldar_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cancelar_prepago.Cancelar_prepago_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.csprojResolveAssemblyReference.cache
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.cortes.entregas_efectivo.Entregas_efectivo_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.comunes.Cuenta_pago_tipo.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.ventas.cotizaciones.Reabrir_cotizaciones.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.catalogos.asignacion_ca.Asignacion_ca_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.reportes.reimpresiones.Reimpresiones_principal.resources
+C:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\Farmacontrol_PDV\Farmacontrol_PDV\obj\x86\Debug\Farmacontrol_PDV.FORMS.reportes.reporte_letra.Reporte_letra_principal.resources

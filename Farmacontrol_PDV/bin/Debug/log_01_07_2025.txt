@@ -1,0 +1,106 @@
+
+Log Entry : 07:24:13 p. m. martes, 1 de julio de 2025
+  :
+  :Nombre terminal: TERMINAL DEL SISTEMA
+Terminal id: 1
+El texto del globo de sugerencias no debe tener un valor vacío.
+   en System.Windows.Forms.NotifyIcon.ShowBalloonTip(Int32 timeout, String tipTitle, String tipText, ToolTipIcon tipIcon)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.validar_colores_promocion_lealtad() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 882
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.insertar_producto_cotizacion() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 237
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.txt_cantidad_KeyDown(Object sender, KeyEventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 475
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.NumericUpDown.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.UpDownBase.OnTextBoxKeyDown(Object source, KeyEventArgs e)
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:33:12 p. m. martes, 1 de julio de 2025
+  :
+  :Nombre terminal: TERMINAL DEL SISTEMA
+Terminal id: 1
+La longitud del texto debe ser inferior a 64 caracteres.
+Nombre del parámetro: Text
+Valor actual 7501089808936 3+1 Promocion : Ilimitado. 2025-1-31 Vigencia AL : 0000-00-00.
+   en System.Windows.Forms.NotifyIcon.set_Text(String value)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.validar_colores_promocion_lealtad() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 886
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.insertar_producto_cotizacion() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 237
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.txt_cantidad_KeyDown(Object sender, KeyEventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 475
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.NumericUpDown.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.UpDownBase.OnTextBoxKeyDown(Object source, KeyEventArgs e)
+   en System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   en System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   en System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   en System.Windows.Forms.Control.WmKeyChar(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   en System.Windows.Forms.TextBox.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 08:13:02 p. m. martes, 1 de julio de 2025
+  :
+  :Nombre terminal: TERMINAL DEL SISTEMA
+Terminal id: 1
+Se produjo una excepción en el destino de la invocación.
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   en System.Delegate.DynamicInvokeImpl(Object[] args)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   en System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+El texto del globo de sugerencias no debe tener un valor vacío.
+   en System.Windows.Forms.NotifyIcon.ShowBalloonTip(Int32 timeout, String tipTitle, String tipText, ToolTipIcon tipIcon)
+   en System.Windows.Forms.NotifyIcon.ShowBalloonTip(Int32 timeout)
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.<validar_colores_promocion_lealtad_async>d__16.MoveNext() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 930
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   en Farmacontrol_PDV.FORMS.ventas.cotizaciones.Cotizaciones_principal.<insertar_producto_cotizacion>d__0.MoveNext() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\ventas\cotizaciones\Cotizaciones_principal.cs:línea 238
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_0(Object state)
+
+
+

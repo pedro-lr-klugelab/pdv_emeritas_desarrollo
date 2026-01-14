@@ -1,0 +1,180 @@
+
+Log Entry : 09:42:41 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 09:43:29 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 09:43:43 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 09:43:49 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 09:52:56 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 09:53:36 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 10:01:41 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 10:02:26 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_global`.`clientes_domicilios`, CONSTRAINT `fk_clientes_domicilios_clientes1` FOREIGN KEY (`cliente_id`) REFERENCES `clientes_bak` (`cliente_id`) ON UPDATE CASCADE)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 10:27:02 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_local`.`cotizaciones`, CONSTRAINT `fk_cotizaciones_clientes_domicilios1` FOREIGN KEY (`cliente_domicilio_id`) REFERENCES `farmacontrol_global`.`clientes_domicilios_bak` (`cliente)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+
+
+Log Entry : 10:27:23 a. m. viernes, 3 de febrero de 2023
+  :
+  :Nombre terminal: CAJA
+Terminal id: 3
+Cannot add or update a child row: a foreign key constraint fails (`farmacontrol_local`.`cotizaciones`, CONSTRAINT `fk_cotizaciones_clientes_domicilios1` FOREIGN KEY (`cliente_domicilio_id`) REFERENCES `farmacontrol_global`.`clientes_domicilios_bak` (`cliente)
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 241
+
+
+

@@ -1,0 +1,32 @@
+
+Log Entry : 12:46:55 p. m. martes, 29 de mayo de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede convertir un objeto DBNull en otros tipos.
+   en System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   en System.Convert.ToDateTime(Object value)
+   en Farmacontrol_PDV.DAO.DAO_Clientes.get_domicilio_data_object(String cliente_domicilio_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Clientes.cs:línea 598
+   en Farmacontrol_PDV.CLASSES.PRINT.Prepago.construccion_ticket(Int64 prepago_id) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\CLASSES\PRINT\Prepago.cs:línea 49
+   en Farmacontrol_PDV.DAO.DAO_Prepago.generar_prepago(DTO_Prepago prepago, List`1 detallado_prepago, List`1 entrega_parcial) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Prepago.cs:línea 803
+   en Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Ingresar_prepago_principal.generar_prepago(List`1 detallado_vista_previa) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\ingresar_prepago\Ingresar_prepago_principal.cs:línea 674
+   en Farmacontrol_PDV.FORMS.ventas.ingresar_prepago.Ingresar_prepago_principal.btn_procesar_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\ingresar_prepago\Ingresar_prepago_principal.cs:línea 133
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

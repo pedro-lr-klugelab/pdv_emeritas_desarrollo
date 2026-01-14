@@ -1,0 +1,57 @@
+
+Log Entry : 02:22:52 p. m. jueves, 9 de octubre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS total,
+							0 AS es_promocion,
+							'' AS comentarios,
+							NOW() AS' at line 23
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 02:23:36 p. m. jueves, 9 de octubre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS total,
+							0 AS es_promocion,
+							'' AS comentarios,
+							NOW() AS' at line 23
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 03:28:11 p. m. jueves, 9 de octubre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Column 'precio_publico' in field list is ambiguous
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+

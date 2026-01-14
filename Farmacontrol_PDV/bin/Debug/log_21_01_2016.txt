@@ -1,0 +1,32 @@
+
+Log Entry : 10:42:16 a. m. jueves, 21 de enero de 2016
+  :
+  :Nombre terminal: TERMINAL DEL SISTEMA
+Terminal id: 1
+Se ha especificado una dirección IP no válida.
+   en System.Net.IPAddress.InternalParse(String ipString, Boolean tryParse)
+   en System.Net.IPAddress.Parse(String ipString)
+   en Farmacontrol_PDV.CLASSES.ImpresionIP.conectar() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\CLASSES\ImpresionIP.cs:línea 29
+   en Farmacontrol_PDV.FORMS.comunes.Principal.inicio_servidor_impresion() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Principal.cs:línea 130
+   en System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   en System.Threading.ThreadHelper.ThreadStart()
+
+
+
+
+Log Entry : 10:57:21 a. m. jueves, 21 de enero de 2016
+  :
+
+Log Entry : 01:33:54 p. m. jueves, 21 de enero de 2016
+  :
+  :Nombre terminal: TERMINAL DEL SISTEMA
+Terminal id: 1
+Devuelto error HRESULT E_FAIL de una llamada a un componente COM.
+   en WIA.ICommonDialog.ShowTransfer(Item Item, String FormatID, Boolean CancelError)
+   en Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.btn_escanear_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Control_escaneo.cs:línea 207
+
+
+

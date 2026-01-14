@@ -1,0 +1,210 @@
+
+Log Entry : 07:15:17 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:16:03 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:17:00 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:17:48 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:19:25 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:20:11 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 53
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 07:22:32 p. m. viernes, 20 de junio de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La fila asociada con la posición del administrador de divisa no se puede hacer invisible.
+   en System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.OnStateChanging(DataGridViewElementStates elementState)
+   en System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   en System.Windows.Forms.DataGridViewRow.set_Visible(Boolean value)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Catalogo_Oro.btnBuscar_Click(Object sender, EventArgs e) en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Catalogo_Oro.cs:línea 54
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en c:\Users\joel_\Documents\Visual Studio 2013\Projects\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+

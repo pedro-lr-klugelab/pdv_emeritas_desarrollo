@@ -1,0 +1,17 @@
+
+Log Entry : 04:18:42 p. m. viernes, 5 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Duplicate entry '2970-2024-04-01- -ENTRADA-61857-0' for key 'articulo_caducidad_lote_tipo_elemento_importado'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\Cortes\Documents\PDV_farmacia\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+

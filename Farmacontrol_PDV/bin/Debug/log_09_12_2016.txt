@@ -1,0 +1,22 @@
+
+Log Entry : 09:12:42 a. m. viernes, 9 de diciembre de 2016
+  :
+  :Nombre terminal: CAJA-1
+Terminal id: 4
+Devuelto error HRESULT E_FAIL de una llamada a un componente COM.
+   en WIA.ICommonDialog.ShowTransfer(Item Item, String FormatID, Boolean CancelError)
+   en Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.btn_escanear_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Control_escaneo.cs:línea 207
+
+
+
+
+Log Entry : 09:14:13 a. m. viernes, 9 de diciembre de 2016
+  :
+  :Nombre terminal: CAJA-1
+Terminal id: 4
+Devuelto error HRESULT E_FAIL de una llamada a un componente COM.
+   en WIA.ICommonDialog.ShowTransfer(Item Item, String FormatID, Boolean CancelError)
+   en Farmacontrol_PDV.FORMS.movimientos.recepciones_mayoristas.Control_escaneo.btn_escanear_Click(Object sender, EventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Control_escaneo.cs:línea 207
+
+
+

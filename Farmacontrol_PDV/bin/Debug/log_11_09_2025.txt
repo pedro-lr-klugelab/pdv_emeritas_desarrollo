@@ -1,0 +1,144 @@
+
+Log Entry : 09:10:52 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 898
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:13:34 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 898
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:18:15 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 898
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 09:21:45 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 09:22:33 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Table 'farmacontrol_local.ajuste_existencias' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 09:26:34 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Duplicate entry '16168-2027-12-01-8000-AJUSTE_EXISTENCIA-12489-0' for key 'articulo_caducidad_lote_tipo_elemento_importado'
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 09:27:14 a. m. jueves, 11 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+

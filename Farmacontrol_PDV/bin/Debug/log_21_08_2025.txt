@@ -1,0 +1,17 @@
+
+Log Entry : 03:51:35 p. m. jueves, 21 de agosto de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Unable to connect to any of the specified MySQL hosts.
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   en MySql.Data.MySqlClient.Driver.Open()
+   en MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   en MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   en MySql.Data.MySqlClient.MySqlConnection.Open()
+   en Farmacontrol_PDV.DAO.Conector.Conectar() en C:\Users\Cortes\Documents\PDV_farmacia\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 58
+
+
+

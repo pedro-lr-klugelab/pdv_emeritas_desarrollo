@@ -1,0 +1,109 @@
+
+Log Entry : 10:35:11 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+					farmacontrol_local.ventas
+				JOIN farmacontrol_local.terminales USI' at line 58
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 10:35:31 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede encontrar la columna 19.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2651
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 790
+
+
+
+
+Log Entry : 10:36:18 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+					farmacontrol_local.ventas
+				JOIN farmacontrol_local.terminales USI' at line 58
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 10:36:42 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2613
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 790
+
+
+
+
+Log Entry : 10:38:00 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+					farmacontrol_local.ventas
+				JOIN farmacontrol_local.terminales USI' at line 58
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\Conector.cs:línea 161
+
+
+
+
+Log Entry : 10:39:18 p. m. martes, 2 de enero de 2018
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+No se puede encontrar la columna 19.
+   en System.Data.DataColumnCollection.get_Item(Int32 index)
+   en System.Data.DataRow.get_Item(Int32 columnIndex)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2651
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 790
+
+
+

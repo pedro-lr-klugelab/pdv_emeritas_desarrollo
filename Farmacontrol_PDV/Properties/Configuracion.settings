@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Farmacontrol_PDV.Properties" GeneratedClassName="Configuracion">
+  <Profiles />
+  <Settings>
+    <Setting Name="impresora_tickets" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="impresora_etiquetas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="main_server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin.cfarmacias.lan</Value>
+    </Setting>
+    <Setting Name="usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nombre_empleado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MIJAEL HERNANDEZ LOPEZ</Value>
+    </Setting>
+    <Setting Name="server_espejos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">172.16.1.240</Value>
+    </Setting>
+    <Setting Name="rest_timeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">90000</Value>
+    </Setting>
+    <Setting Name="empleado_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="impresora_escaner" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="uuid_terminal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="db_server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.103</Value>
+    </Setting>
+    <Setting Name="db_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3306</Value>
+    </Setting>
+    <Setting Name="db_user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">joseph</Value>
+    </Setting>
+    <Setting Name="db_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sabido</Value>
+    </Setting>
+    <Setting Name="db_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">farmacontrol_global</Value>
+    </Setting>
+    <Setting Name="db_connection_time_out" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="destino_facturas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="impresora_remota_tickets" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="usar_impresora_remota_tickets" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="impresora_remota_etiquetas" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="usar_impresora_remota_etiquetas" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="nivel_contraste" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="nivel_brillo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

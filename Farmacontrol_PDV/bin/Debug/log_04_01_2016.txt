@@ -1,0 +1,15 @@
+
+Log Entry : 11:14:51 a. m. lunes, 4 de enero de 2016
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Colección modificada; puede que no se ejecute la operación de enumeración.
+   en System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   en System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   en System.Collections.Generic.List`1.Enumerator.MoveNext()
+   en System.ComponentModel.BindingList`1.ClearItems()
+   en System.Collections.ObjectModel.Collection`1.Clear()
+   en Farmacontrol_PDV.FORMS.comunes.Busqueda_productos.DoWork_busqueda(Object objeto) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Busqueda_productos.cs:línea 206
+
+
+

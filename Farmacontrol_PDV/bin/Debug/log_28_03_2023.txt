@@ -1,0 +1,33 @@
+
+Log Entry : 08:35:22 a. m. martes, 28 de marzo de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 09:56:50 a. m. martes, 28 de marzo de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 12:26:54 p. m. martes, 28 de marzo de 2023
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Farmacontrol_PDV.DAO.DAO_Ventas.get_informacion_factura_33(Int64 venta_id, DTO_Rfc dto_rfc, String condiciones_pago, String metodo_pago, String cuenta, String correos, Boolean es_nota_credito, String uso_del_cfdi, String regimen_fiscal) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\DAO\DAO_Ventas.cs:línea 2783
+   en Farmacontrol_PDV.FORMS.ventas.facturacion.Facturacion_v12.worker_timbrado_DoWork(Object sender, DoWorkEventArgs e) en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\ventas\facturacion\Facturacion_v12.cs:línea 822
+
+
+

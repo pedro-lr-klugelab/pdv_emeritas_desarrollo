@@ -1,0 +1,419 @@
+
+Log Entry : 10:33:55 a. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 774
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 10:50:01 a. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 10:51:21 a. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Unable to convert MySQL date/time value to System.DateTime
+   en MySql.Data.Types.MySqlDateTime.GetDateTime()
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValue(Int32 i)
+   en MySql.Data.MySqlClient.MySqlDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   en System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   en System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   en System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 12:18:07 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 12:19:48 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Table 'farmacontrol_local.detallado_ajuste_existencias' doesn't exist
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 12:21:00 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste)
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e)
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main()
+
+
+
+
+Log Entry : 12:22:43 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 03:59:18 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Column 'ajuste_existencia_id' cannot be null
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 04:01:32 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 04:10:09 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 04:11:36 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Column 'ajuste_existencia_id' cannot be null
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 04:12:23 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 799
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 04:17:08 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 04:18:53 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cantidad = -1,
+								existencia_posterior = 97 - 1,
+								es_importado = 0' at line 14
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 04:19:40 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 829
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 04:39:20 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+
+
+Log Entry : 04:40:13 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cantidad = 1,
+								existencia_posterior = 94 - 1,
+								es_importado = 0,' at line 14
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en Farmacontrol_PDV.DAO.Conector.Non_Query(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 243
+
+
+
+
+Log Entry : 04:40:32 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '								articulo_id,
+								existencia	
+							FROM
+								farmacontrol_loc' at line 3
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 04:40:50 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+La columna 'existencia_id' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en Farmacontrol_PDV.DAO.DAO_Ajustes_existencias.set_inserta_detallado_ajuste(Dictionary`2 obsequios, Int64 id_ajuste) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\DAO_Ajustes_existencias.cs:línea 856
+   en Farmacontrol_PDV.FORMS.movimientos.Circulo_Salud.Beneficios_Oro.btnGuardar_Click(Object sender, EventArgs e) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\movimientos\Circulo_Salud\Beneficios_Oro.cs:línea 201
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   en System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.Run(Form mainForm)
+   en Farmacontrol_PDV.Program.Main() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\Program.cs:línea 53
+
+
+
+
+Log Entry : 04:51:24 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '								articulo_id,
+								existencia	
+							FROM
+								farmacontrol_loc' at line 3
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 04:51:57 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '								articulo_id,
+								existencia	
+							FROM
+								farmacontrol_loc' at line 3
+   en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en Farmacontrol_PDV.DAO.Conector.Select(String sql, Dictionary`2 parametros) en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\DAO\Conector.cs:línea 165
+
+
+
+
+Log Entry : 05:31:02 p. m. miércoles, 10 de septiembre de 2025
+  :
+  :Nombre terminal: CAJA 1
+Terminal id: 3
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en C:\Users\joel_\Documents\Visual Studio 2022\Proyectos\emerita_pdv\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+

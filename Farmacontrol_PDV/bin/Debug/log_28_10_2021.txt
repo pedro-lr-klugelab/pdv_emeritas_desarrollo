@@ -1,0 +1,10 @@
+
+Log Entry : 08:47:19 a. m. jueves, 28 de octubre de 2021
+  :
+  :Nombre terminal: CAJA
+Terminal id: 2
+Referencia a objeto no establecida como instancia de un objeto.
+   en Farmacontrol_PDV.FORMS.comunes.Custom_alert.MyCallbackFunction() en c:\Users\Mijael Hernandez\Documents\Visual Studio 2013\Projects\pruebas\Farmacontrol_PDV\FORMS\comunes\Custom_alert.cs:línea 66
+
+
+

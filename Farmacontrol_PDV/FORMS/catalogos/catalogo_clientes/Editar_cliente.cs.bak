@@ -1,0 +1,130 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Farmacontrol_PDV.DAO;
+
+namespace Farmacontrol_PDV.FORMS.catalogos.catalogo_clientes
+{
+	public partial class Editar_cliente : Form
+	{
+		private string cliente_id_hex = "";
+		DAO_Clientes dao_clientes = new DAO_Clientes();
+
+		public Editar_cliente(string cliente_id_hex)
+		{
+			this.cliente_id_hex = cliente_id_hex;
+			InitializeComponent();
+			dgv_domicilios.ClearSelection();
+		}
+
+		private void Editar_cliente_Load(object sender, EventArgs e)
+		{
+			rellenar_informacion_cliente();
+			dgv_domicilios.ClearSelection();
+			dgv_ventas_credito.DataSource = dao_clientes.get_ventas_credito(cliente_id_hex);
+			dgv_ventas_domicilio.DataSource = dao_clientes.get_ventas_domicilio(cliente_id_hex);
+		}
+
+		public void rellenar_informacion_cliente()
+		{
+			dgv_domicilios.DataSource = dao_clientes.get_cliente_domicilio_data(cliente_id_hex);
+			var cliente_data = dao_clientes.get_cliente_data(cliente_id_hex);
+
+			txt_nombre.Text = cliente_data.Rows[0]["nombre"].ToString();
+			txt_comentarios.Text = cliente_data.Rows[0]["comentarios"].ToString();
+			txt_limite_credito.Text = cliente_data.Rows[0]["limite_credito"].ToString();
+			txt_credito_disponible.Text = cliente_data.Rows[0]["limite_credito"].ToString();
+
+			if (Convert.ToBoolean(cliente_data.Rows[0]["credito_activado"].ToString()))
+			{
+				rbt_ca_si.Checked = true;
+				rbt_ca_no.Checked = false;
+			}
+			else
+			{
+				rbt_ca_si.Checked = false;
+				rbt_ca_no.Checked = true;
+			}
+
+			txt_nombre.Focus();
+			dgv_domicilios.ClearSelection();
+		}
+
+		private void btn_p1_cancelar_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void btn_p2_cancelar_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void Editar_cliente_Shown(object sender, EventArgs e)
+		{
+			txt_nombre.Focus();
+			dgv_domicilios.ClearSelection();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+            dao_clientes.actualizar_cliente(cliente_id_hex, txt_nombre.Text,Convert.ToDecimal(txt_limite_credito.Text), rbt_ca_si.Checked, txt_comentarios.Text);
+			rellenar_informacion_cliente();
+		}
+
+		private void btn_agregar_domicilio_Click(object sender, EventArgs e)
+		{
+			Registrar_domicilios registro_domicilio = new Registrar_domicilios(cliente_id_hex,"");
+			registro_domicilio.ShowDialog();
+			dgv_domicilios.DataSource =  dao_clientes.get_cliente_domicilio_data(cliente_id_hex);
+		}
+
+		private void dgv_ventas_facturadas_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+		{
+			
+		}
+
+		private void dgv_ventas_credito_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+		{
+			
+		}
+
+        private void dgv_domicilios_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if(dgv_domicilios.SelectedRows.Count > 0)
+            {
+                registro_edicion_domicilio();
+            }
+        }
+
+        void registro_edicion_domicilio()
+        {
+            Registrar_domicilios registro_domicilio = new Registrar_domicilios(cliente_id_hex, dgv_domicilios.SelectedRows[0].Cells["cliente_domicilio_id"].Value.ToString());
+            registro_domicilio.ShowDialog();
+            dgv_domicilios.DataSource = dao_clientes.get_cliente_domicilio_data(cliente_id_hex);
+        }
+
+        private void dgv_domicilios_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(dgv_domicilios.SelectedRows.Count > 0)
+            {
+                registro_edicion_domicilio();
+            }
+        }
+
+        private void txt_nombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.KeyChar = Char.ToUpper(e.KeyChar);
+        }
+
+        private void txt_comentarios_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.KeyChar = Char.ToUpper(e.KeyChar);
+        }
+	}
+}
