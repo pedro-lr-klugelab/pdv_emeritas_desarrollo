@@ -280,6 +280,7 @@
     <Compile Include="DTO\DTO_Sector.cs" />
     <Compile Include="DTO\DTO_Tae.cs" />
     <Compile Include="DTO\DTO_Terminal.cs" />
+    <Compile Include="DTO\DTO_Terminal_Response.cs" />
     <Compile Include="DTO\DTO_Traspaso.cs" />
     <Compile Include="DTO\DTO_Vale.cs" />
     <Compile Include="DTO\DTO_Valuacion_inventario.cs" />
@@ -1234,6 +1235,7 @@
     <Compile Include="HELPERS\Rest_helper.cs" />
     <Compile Include="HELPERS\Sucursales_helper.cs" />
     <Compile Include="HELPERS\Tae_helper.cs" />
+    <Compile Include="HELPERS\Terminal_helper.cs" />
     <Compile Include="HELPERS\WebServicePac_helper.cs" />
     <Compile Include="Log_error.cs" />
     <Compile Include="Program.cs" />
