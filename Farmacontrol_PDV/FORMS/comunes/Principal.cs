@@ -109,6 +109,10 @@ namespace Farmacontrol_PDV.FORMS.comunes
 					servidor_impresion.Start();
 				}
 
+				// Initialize Terminal Payment API in background
+				Thread terminal_init = new Thread(new ThreadStart(inicializar_terminal_api));
+				terminal_init.Start();
+
                 string version = "";
                 /*
                 if (System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed)
@@ -128,6 +132,40 @@ namespace Farmacontrol_PDV.FORMS.comunes
 		public void inicio_servidor_impresion()
 		{
             ImpresionIP.conectar();
+		}
+
+		/// <summary>
+		/// Initialize the Terminal Payment API in background
+		/// This allows card payments to be processed through the terminal
+		/// </summary>
+		public void inicializar_terminal_api()
+		{
+			try
+			{
+				// Check if API is already running
+				if (Terminal_helper.CheckHealth())
+				{
+					// API is running, initialize SDK
+					var result = Terminal_helper.Initialize();
+					if (result.IsSuccessful)
+					{
+						Console.WriteLine("Terminal API initialized successfully");
+					}
+					else
+					{
+						Console.WriteLine($"Terminal API initialization warning: {result.DisplayMessage}");
+					}
+				}
+				else
+				{
+					Console.WriteLine("Terminal API not running. Card payments will attempt to initialize on first use.");
+				}
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Terminal API initialization error: {ex.Message}");
+				// Don't show error to user - terminal payments will try to initialize when needed
+			}
 		}
 
 		public void configuracion(object sender, EventArgs e)

@@ -388,6 +388,17 @@ namespace Farmacontrol_PDV.FORMS.ventas.ventas
 				string nombre_pago_tipo = pago_tipo_actual.nombre;
 				decimal cantidad_ingresada = Convert.ToDecimal(txt_cantidad.Text);
 
+				// Check if this is a card payment that needs terminal processing
+				if (nombre_pago_tipo.Equals("TARJETA DEBITO") || nombre_pago_tipo.Equals("TARJETA CREDITO"))
+				{
+					// Process card payment through terminal
+					if (!procesar_pago_tarjeta(cantidad_ingresada, nombre_pago_tipo))
+					{
+						// Payment failed or was cancelled - don't add to payments grid
+						return;
+					}
+				}
+
 				bool existe = false;
 
 				foreach(DataGridViewRow row in dgv_pagos.Rows)
@@ -437,6 +448,75 @@ namespace Farmacontrol_PDV.FORMS.ventas.ventas
 				}
 
 				validar_monto_pagar();
+			}
+		}
+
+		/// <summary>
+		/// Process a card payment through the terminal API
+		/// </summary>
+		/// <param name="monto">Amount to charge</param>
+		/// <param name="tipo_tarjeta">Card type (TARJETA DEBITO or TARJETA CREDITO)</param>
+		/// <returns>true if payment was successful, false otherwise</returns>
+		private bool procesar_pago_tarjeta(decimal monto, string tipo_tarjeta)
+		{
+			try
+			{
+				// Change cursor to indicate processing
+				Cursor = Cursors.WaitCursor;
+
+				// Generate a reference for this transaction
+				string referencia = $"VENTA-{venta_id}-{DateTime.Now:yyyyMMddHHmmss}";
+
+				// Show message to user
+				MessageBox.Show(this, 
+					$"Por favor inserte o deslice la tarjeta en el terminal.\n\nMonto: {monto:C2}\nTipo: {tipo_tarjeta}", 
+					"Procesando Pago con Tarjeta", 
+					MessageBoxButtons.OK, 
+					MessageBoxIcon.Information);
+
+				// Process the sale through the terminal
+				var resultado = Terminal_helper.ProcessSale(monto, referencia);
+
+				Cursor = Cursors.Default;
+
+				if (resultado.IsSuccessful)
+				{
+					// Payment approved
+					string mensaje_exito = $"Pago Aprobado\n\n" +
+						$"Autorización: {resultado.autorizacion}\n" +
+						$"Referencia: {resultado.referenciaFinanciera}\n" +
+						$"Mensaje: {resultado.leyenda}";
+
+					MessageBox.Show(this, mensaje_exito, "Pago Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+					// Store the authorization code in the cuenta field for record keeping
+					txt_cuenta.Text = resultado.autorizacion ?? resultado.referenciaFinanciera ?? referencia;
+
+					return true;
+				}
+				else
+				{
+					// Payment failed - show error popup
+					string mensaje_error = $"Pago No Autorizado\n\n" +
+						$"Código: {resultado.codigoRespuesta}\n" +
+						$"Mensaje: {resultado.DisplayMessage}\n\n" +
+						$"Por favor intente con otro método de pago o verifique la tarjeta.";
+
+					MessageBox.Show(this, mensaje_error, "Error en Pago con Tarjeta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+					return false;
+				}
+			}
+			catch (Exception ex)
+			{
+				Cursor = Cursors.Default;
+
+				string mensaje_error = $"Error al procesar el pago con tarjeta:\n\n{ex.Message}\n\n" +
+					"Verifique que el terminal esté conectado y el servicio esté ejecutándose.";
+
+				MessageBox.Show(this, mensaje_error, "Error de Terminal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+				return false;
 			}
 		}
 
