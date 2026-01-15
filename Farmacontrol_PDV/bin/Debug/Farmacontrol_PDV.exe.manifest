@@ -116,14 +116,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Farmacontrol_PDV.exe" size="4560384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Farmacontrol_PDV.exe" size="4562944">
       <assemblyIdentity name="Farmacontrol_PDV" version="1.0.13.770" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>T3usEsdRTjQYNxbevjS8ezR66Ng1N/iYH1xsDc34gQ8=</dsig:DigestValue>
+        <dsig:DigestValue>4KpVDvJ5p/XqVTyQIScaVFkKciyUZfGCyFraP4lX9SM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -135,7 +135,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UHEOoAVtNjoDtyiMah4qNgkeaqAsHK7MnX2K4wfJ0sk=</dsig:DigestValue>
+        <dsig:DigestValue>ho8KnOwahQvufTeaVVU+NkUszf1i/nPAIlp+LDLeJ3A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -256,13 +256,13 @@
       <dsig:DigestValue>/8+7roeARZEX1UFbYZx0yIV+XWZfEKLB2FkeVmDU3wY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Farmacontrol_PDV.pdb" size="4161024">
+  <file name="Farmacontrol_PDV.pdb" size="4163072">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>EdLL5cuaU20iWsrM/8ExkTBIsmzvJavi+AJqJKhPZFs=</dsig:DigestValue>
+      <dsig:DigestValue>kYtIH64T4mnkyZbqPFeaQsrlQMY+GTODYmHmgZ0CeUI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LOGO.ico" size="270398">

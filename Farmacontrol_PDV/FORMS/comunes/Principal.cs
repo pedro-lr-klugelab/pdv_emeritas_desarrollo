@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -23,6 +24,10 @@ namespace Farmacontrol_PDV.FORMS.comunes
         public static int? empleado_id;
 		Login_helper login_helper = new Login_helper();
 		Thread servidor_impresion = null;
+		
+		// Terminal payment service processes
+		private static Process proceso_simulador_java = null;
+		private static Process proceso_terminal_api = null;
 
         public Principal()
         {
@@ -136,34 +141,123 @@ namespace Farmacontrol_PDV.FORMS.comunes
 
 		/// <summary>
 		/// Initialize the Terminal Payment API in background
-		/// This allows card payments to be processed through the terminal
+		/// This starts the Java simulator and API server, then initializes the SDK
 		/// </summary>
 		public void inicializar_terminal_api()
 		{
 			try
 			{
+				// Get the base path for terminal services
+				string basePath = AppDomain.CurrentDomain.BaseDirectory;
+				
+				// For development: Navigate from bin\Debug to project root, then to integrations
+				// basePath = C:\...\Farmacontrol_PDV\bin\Debug\
+				// We need: C:\...\integrations\terminal-api\
+				string projectRoot = Path.GetFullPath(Path.Combine(basePath, "..", "..", ".."));
+				string terminalApiPath = Path.Combine(projectRoot, "integrations", "terminal-api");
+				
+				string simulatorPath = Path.Combine(terminalApiPath, "simulador", "Servidor", "main", "webapp", "WEB-INF", "views");
+				string apiPath = Path.Combine(terminalApiPath, "src", "TotalPosApi", "bin", "Debug", "net48");
+				
+				string simulatorJar = Path.Combine(simulatorPath, "Simulador-1.0.0-SNAPSHOT.jar");
+				string apiExePath = Path.Combine(apiPath, "TotalPosApi.exe");
+				
+				// Log paths for debugging
+				System.Diagnostics.Debug.WriteLine($"[Terminal] Base path: {basePath}");
+				System.Diagnostics.Debug.WriteLine($"[Terminal] Project root: {projectRoot}");
+				System.Diagnostics.Debug.WriteLine($"[Terminal] Simulator JAR: {simulatorJar} (exists: {File.Exists(simulatorJar)})");
+				System.Diagnostics.Debug.WriteLine($"[Terminal] API EXE: {apiExePath} (exists: {File.Exists(apiExePath)})");
+				
 				// Check if API is already running
-				if (Terminal_helper.CheckHealth())
+				if (!Terminal_helper.CheckHealth())
 				{
-					// API is running, initialize SDK
-					var result = Terminal_helper.Initialize();
-					if (result.IsSuccessful)
+					System.Diagnostics.Debug.WriteLine("[Terminal] API not running. Starting services...");
+					
+					// Start Java Simulator if not already running
+					if (File.Exists(simulatorJar))
 					{
-						Console.WriteLine("Terminal API initialized successfully");
+						try
+						{
+							ProcessStartInfo simulatorStartInfo = new ProcessStartInfo
+							{
+								FileName = "java",
+								Arguments = $"-jar \"{simulatorJar}\"",
+								WorkingDirectory = simulatorPath,
+								UseShellExecute = true,
+								CreateNoWindow = false,
+								WindowStyle = ProcessWindowStyle.Minimized
+							};
+							proceso_simulador_java = Process.Start(simulatorStartInfo);
+							System.Diagnostics.Debug.WriteLine("[Terminal] Java Simulator started");
+							
+							// Wait for simulator to initialize
+							Thread.Sleep(5000);
+						}
+						catch (Exception ex)
+						{
+							System.Diagnostics.Debug.WriteLine($"[Terminal] Failed to start Java Simulator: {ex.Message}");
+						}
 					}
 					else
 					{
-						Console.WriteLine($"Terminal API initialization warning: {result.DisplayMessage}");
+						System.Diagnostics.Debug.WriteLine($"[Terminal] Simulator JAR not found at: {simulatorJar}");
+					}
+					
+					// Start TotalPos API if not already running
+					if (File.Exists(apiExePath))
+					{
+						try
+						{
+							ProcessStartInfo apiStartInfo = new ProcessStartInfo
+							{
+								FileName = apiExePath,
+								WorkingDirectory = apiPath,
+								UseShellExecute = true,
+								CreateNoWindow = false,
+								WindowStyle = ProcessWindowStyle.Minimized
+							};
+							proceso_terminal_api = Process.Start(apiStartInfo);
+							System.Diagnostics.Debug.WriteLine("[Terminal] TotalPos API started");
+							
+							// Wait for API to initialize
+							Thread.Sleep(3000);
+						}
+						catch (Exception ex)
+						{
+							System.Diagnostics.Debug.WriteLine($"[Terminal] Failed to start TotalPos API: {ex.Message}");
+						}
+					}
+					else
+					{
+						System.Diagnostics.Debug.WriteLine($"[Terminal] TotalPosApi.exe not found at: {apiExePath}");
 					}
 				}
 				else
 				{
-					Console.WriteLine("Terminal API not running. Card payments will attempt to initialize on first use.");
+					System.Diagnostics.Debug.WriteLine("[Terminal] API already running");
+				}
+				
+				// Now try to initialize the SDK
+				if (Terminal_helper.CheckHealth())
+				{
+					var result = Terminal_helper.Initialize();
+					if (result.IsSuccessful)
+					{
+						System.Diagnostics.Debug.WriteLine("[Terminal] API initialized successfully");
+					}
+					else
+					{
+						System.Diagnostics.Debug.WriteLine($"[Terminal] API initialization warning: {result.DisplayMessage}");
+					}
+				}
+				else
+				{
+					System.Diagnostics.Debug.WriteLine("[Terminal] API still not available after starting services.");
 				}
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine($"Terminal API initialization error: {ex.Message}");
+				System.Diagnostics.Debug.WriteLine($"[Terminal] Initialization error: {ex.Message}");
 				// Don't show error to user - terminal payments will try to initialize when needed
 			}
 		}
@@ -365,7 +459,41 @@ namespace Farmacontrol_PDV.FORMS.comunes
                         }
                     }
                 }
+				
+				// Stop terminal payment services
+				detener_servicios_terminal();
             }
+		}
+		
+		/// <summary>
+		/// Stop terminal payment services when application closes
+		/// </summary>
+		private void detener_servicios_terminal()
+		{
+			try
+			{
+				// Stop TotalPos API
+				if (proceso_terminal_api != null && !proceso_terminal_api.HasExited)
+				{
+					proceso_terminal_api.Kill();
+					proceso_terminal_api.Dispose();
+					proceso_terminal_api = null;
+					Console.WriteLine("TotalPos API stopped");
+				}
+				
+				// Stop Java Simulator
+				if (proceso_simulador_java != null && !proceso_simulador_java.HasExited)
+				{
+					proceso_simulador_java.Kill();
+					proceso_simulador_java.Dispose();
+					proceso_simulador_java = null;
+					Console.WriteLine("Java Simulator stopped");
+				}
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Error stopping terminal services: {ex.Message}");
+			}
 		}
 
         private void Principal_KeyDown(object sender, KeyEventArgs e)
