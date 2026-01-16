@@ -116,14 +116,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Farmacontrol_PDV.exe" size="4562944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Farmacontrol_PDV.exe" size="4563456">
       <assemblyIdentity name="Farmacontrol_PDV" version="1.0.13.770" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4KpVDvJ5p/XqVTyQIScaVFkKciyUZfGCyFraP4lX9SM=</dsig:DigestValue>
+        <dsig:DigestValue>bR65dTlqv00aoAGsWZoTplN8zf6k1+9MWqlNslbqHq0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -135,7 +135,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ho8KnOwahQvufTeaVVU+NkUszf1i/nPAIlp+LDLeJ3A=</dsig:DigestValue>
+        <dsig:DigestValue>mLa9HupcA30Hf3sIU+iH4qtF5cgV6YG5bPut4GdkF90=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -262,7 +262,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kYtIH64T4mnkyZbqPFeaQsrlQMY+GTODYmHmgZ0CeUI=</dsig:DigestValue>
+      <dsig:DigestValue>6u1qAr8M8Esyrgm5HeVd9fMC11Vx9mrFtQH/h4y+d1Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LOGO.ico" size="270398">

@@ -28,6 +28,10 @@ namespace Farmacontrol_PDV.FORMS.comunes
 		// Terminal payment service processes
 		private static Process proceso_simulador_java = null;
 		private static Process proceso_terminal_api = null;
+		
+		// Timer for enabling menu after terminal initialization
+		private System.Windows.Forms.Timer timer_habilitar_menu = null;
+		private const int TIEMPO_ESPERA_TERMINAL_MS = 10000; // 10 seconds
 
         public Principal()
         {
@@ -114,6 +118,16 @@ namespace Farmacontrol_PDV.FORMS.comunes
 					servidor_impresion.Start();
 				}
 
+				// Disable menu while terminal services initialize
+				menu_principal.Enabled = false;
+				this.Text = "Farmacontrol PDV - Inicializando terminal de pagos...";
+				
+				// Configure timer to enable menu after 10 seconds
+				timer_habilitar_menu = new System.Windows.Forms.Timer();
+				timer_habilitar_menu.Interval = TIEMPO_ESPERA_TERMINAL_MS;
+				timer_habilitar_menu.Tick += new EventHandler(habilitar_menu_despues_de_espera);
+				timer_habilitar_menu.Start();
+				
 				// Initialize Terminal Payment API in background
 				Thread terminal_init = new Thread(new ThreadStart(inicializar_terminal_api));
 				terminal_init.Start();
@@ -127,12 +141,30 @@ namespace Farmacontrol_PDV.FORMS.comunes
                     version = cd.CurrentVersion.ToString();
                     // show publish version in title or About box...
                 }*/
-
-
-
-				this.Text = String.Format("Farmacontrol PDV {0} - {1}",version, login_helper.empleado_nombre);
+				
+				// Store employee name for later (when menu gets enabled)
+				this.Tag = login_helper.empleado_nombre;
 			}
         }
+		
+		/// <summary>
+		/// Re-enable the menu after the terminal initialization wait period
+		/// </summary>
+		private void habilitar_menu_despues_de_espera(object sender, EventArgs e)
+		{
+			timer_habilitar_menu.Stop();
+			timer_habilitar_menu.Dispose();
+			timer_habilitar_menu = null;
+			
+			menu_principal.Enabled = true;
+			
+			string version = "";
+			string empleado_nombre = this.Tag?.ToString() ?? "";
+			this.Text = String.Format("Farmacontrol PDV {0} - {1}", version, empleado_nombre);
+			this.Tag = null;
+			
+			System.Diagnostics.Debug.WriteLine("[Terminal] Menu enabled after initialization wait period");
+		}
 
 		public void inicio_servidor_impresion()
 		{
@@ -173,7 +205,7 @@ namespace Farmacontrol_PDV.FORMS.comunes
 				{
 					System.Diagnostics.Debug.WriteLine("[Terminal] API not running. Starting services...");
 					
-					// Start Java Simulator if not already running
+					// Start Java Simulator if not already running (silent mode)
 					if (File.Exists(simulatorJar))
 					{
 						try
@@ -183,9 +215,8 @@ namespace Farmacontrol_PDV.FORMS.comunes
 								FileName = "java",
 								Arguments = $"-jar \"{simulatorJar}\"",
 								WorkingDirectory = simulatorPath,
-								UseShellExecute = true,
-								CreateNoWindow = false,
-								WindowStyle = ProcessWindowStyle.Minimized
+								UseShellExecute = false,
+								CreateNoWindow = true
 							};
 							proceso_simulador_java = Process.Start(simulatorStartInfo);
 							System.Diagnostics.Debug.WriteLine("[Terminal] Java Simulator started");
@@ -203,7 +234,7 @@ namespace Farmacontrol_PDV.FORMS.comunes
 						System.Diagnostics.Debug.WriteLine($"[Terminal] Simulator JAR not found at: {simulatorJar}");
 					}
 					
-					// Start TotalPos API if not already running
+					// Start TotalPos API if not already running (silent mode)
 					if (File.Exists(apiExePath))
 					{
 						try
@@ -212,9 +243,8 @@ namespace Farmacontrol_PDV.FORMS.comunes
 							{
 								FileName = apiExePath,
 								WorkingDirectory = apiPath,
-								UseShellExecute = true,
-								CreateNoWindow = false,
-								WindowStyle = ProcessWindowStyle.Minimized
+								UseShellExecute = false,
+								CreateNoWindow = true
 							};
 							proceso_terminal_api = Process.Start(apiStartInfo);
 							System.Diagnostics.Debug.WriteLine("[Terminal] TotalPos API started");
