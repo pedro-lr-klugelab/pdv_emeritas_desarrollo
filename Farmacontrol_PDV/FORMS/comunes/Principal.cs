@@ -242,15 +242,15 @@ namespace Farmacontrol_PDV.FORMS.comunes
 							ProcessStartInfo apiStartInfo = new ProcessStartInfo
 							{
 								FileName = apiExePath,
-								WorkingDirectory = apiPath,
+								WorkingDirectory = projectRoot,  // Use project root as working directory
 								UseShellExecute = false,
 								CreateNoWindow = true
 							};
 							proceso_terminal_api = Process.Start(apiStartInfo);
 							System.Diagnostics.Debug.WriteLine("[Terminal] TotalPos API started");
 							
-							// Wait for API to initialize
-							Thread.Sleep(3000);
+							// Wait for API to initialize (port detection + initialization)
+							Thread.Sleep(5000);
 						}
 						catch (Exception ex)
 						{
